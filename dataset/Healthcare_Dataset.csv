@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,Diagnosis,Hospital,Department,Doctor,InsuranceType,City,State,AdmissionDate,DischargeDate,LengthOfStay,Cost,BillingAmount,Outcome,Readmission30Days
+PID1,88,Female,Heart Failure,Troy General Hospital,Orthopedics,Dr. Patel,Medicaid,Detroit,MI,5/31/2024,6/11/2024,11,2679,4623,Deceased,No
+PID2,19,Male,Stroke,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicare,Ann Arbor,MI,1/23/2024,2/3/2024,11,6282,9577,Improved,Yes
+PID3,56,Female,Infection,Michigan Health Center,Orthopedics,Dr. Johnson,Private,Detroit,MI,8/9/2024,8/23/2024,14,4468,5929,Transferred,Yes
+PID4,7,Male,Arthritis,Michigan Health Center,Pediatrics,Dr. Kumar,Medicare,Troy,MI,11/5/2024,11/7/2024,2,7981,8822,Recovered,No
+PID5,38,Male,Asthma,Troy General Hospital,Neurology,Dr. Patel,Self-Pay,Ann Arbor,MI,8/20/2024,8/29/2024,9,6318,10235,Recovered,Yes
+PID6,27,Male,Diabetes,Michigan Health Center,Neurology,Dr. Lee,Private,Ann Arbor,MI,4/10/2024,4/14/2024,4,2162,5444,Improved,No
+PID7,28,Male,Asthma,Royal Womens Hospital,Cardiology,Dr. Patel,Private,Southfield,MI,12/23/2024,12/28/2024,5,8139,10827,Improved,No
+PID8,55,Male,Hypertension,Royal Womens Hospital,Orthopedics,Dr. Lee,Private,Troy,MI,8/6/2024,8/7/2024,1,7800,11596,Recovered,Yes
+PID9,24,Male,Fracture,Royal Womens Hospital,Orthopedics,Dr. Smith,Self-Pay,Ann Arbor,MI,8/26/2024,9/10/2024,15,5772,7629,Recovered,Yes
+PID10,77,Male,Infection,Troy General Hospital,Orthopedics,Dr. Johnson,Medicare,Ann Arbor,MI,7/7/2024,7/18/2024,11,2546,3782,Recovered,No
+PID11,78,Male,Diabetes,Royal Womens Hospital,Emergency,Dr. Johnson,Medicaid,Troy,MI,9/7/2024,9/9/2024,2,3254,6223,Transferred,Yes
+PID12,47,Female,Asthma,Detroit Lakes Medical,Cardiology,Dr. Johnson,Medicare,Canton,MI,1/4/2024,1/7/2024,3,4855,6499,Deceased,Yes
+PID13,89,Male,Heart Failure,Michigan Health Center,Cardiology,Dr. Smith,Medicaid,Troy,MI,8/27/2024,9/1/2024,5,2689,5437,Recovered,No
+PID14,48,Male,Arthritis,Troy General Hospital,Emergency,Dr. Lee,Medicaid,Troy,MI,4/16/2024,4/28/2024,12,5824,6827,Improved,No
+PID15,15,Male,Migraine,Detroit Lakes Medical,Neurology,Dr. Lee,Self-Pay,Canton,MI,4/18/2024,4/26/2024,8,9497,11654,Recovered,No
+PID16,41,Male,Migraine,South Canton Care,Cardiology,Dr. Lee,Self-Pay,Detroit,MI,6/9/2024,6/14/2024,5,8284,10654,Recovered,No
+PID17,58,Female,Hypertension,Michigan Health Center,Cardiology,Dr. Johnson,Self-Pay,Southfield,MI,5/10/2024,5/22/2024,12,4008,5019,Improved,No
+PID18,89,Male,Fracture,Detroit Lakes Medical,Orthopedics,Dr. Lee,Self-Pay,Southfield,MI,2/24/2024,3/4/2024,9,4354,7646,Improved,Yes
+PID19,86,Male,Migraine,Michigan Health Center,Emergency,Dr. Smith,Self-Pay,Troy,MI,10/27/2024,11/11/2024,15,5526,6167,Recovered,No
+PID20,45,Female,Fracture,Michigan Health Center,Neurology,Dr. Kumar,Self-Pay,Detroit,MI,12/11/2024,12/24/2024,13,6855,9060,Improved,No
+PID21,73,Female,Heart Failure,Michigan Health Center,Cardiology,Dr. Kumar,Medicare,Southfield,MI,7/4/2024,7/17/2024,13,7423,10510,Recovered,No
+PID22,86,Female,Pneumonia,Troy General Hospital,Pediatrics,Dr. Patel,Private,Troy,MI,8/5/2024,8/12/2024,7,7781,9662,Improved,Yes
+PID23,28,Female,Infection,Michigan Health Center,Pediatrics,Dr. Kumar,Self-Pay,Ann Arbor,MI,11/28/2024,12/13/2024,15,3700,7079,Transferred,No
+PID24,50,Female,Diabetes,Detroit Lakes Medical,Cardiology,Dr. Kumar,Medicaid,Detroit,MI,10/14/2024,10/15/2024,1,8994,10348,Transferred,No
+PID25,10,Male,Arthritis,Royal Womens Hospital,Orthopedics,Dr. Lee,Self-Pay,Canton,MI,5/26/2024,6/9/2024,14,2553,6499,Recovered,No
+PID26,30,Female,Arthritis,Royal Womens Hospital,Orthopedics,Dr. Smith,Medicaid,Canton,MI,6/14/2024,6/21/2024,7,11751,14798,Improved,Yes
+PID27,20,Female,Heart Failure,Royal Womens Hospital,Pediatrics,Dr. Kumar,Self-Pay,Troy,MI,12/25/2024,1/8/2025,14,11279,14034,Deceased,Yes
+PID28,57,Male,Infection,South Canton Care,Neurology,Dr. Kumar,Private,Canton,MI,8/11/2024,8/24/2024,13,4618,7063,Deceased,Yes
+PID29,56,Female,Fracture,Detroit Lakes Medical,Pediatrics,Dr. Patel,Private,Southfield,MI,2/11/2024,2/15/2024,4,6446,8719,Recovered,No
+PID30,86,Male,Stroke,South Canton Care,Orthopedics,Dr. Patel,Medicaid,Ann Arbor,MI,10/5/2024,10/7/2024,2,9634,13167,Deceased,Yes
+PID31,50,Male,Infection,Detroit Lakes Medical,Cardiology,Dr. Kumar,Private,Ann Arbor,MI,5/30/2024,6/1/2024,2,10293,12769,Recovered,Yes
+PID32,68,Female,Infection,Royal Womens Hospital,Orthopedics,Dr. Lee,Self-Pay,Troy,MI,3/1/2024,3/9/2024,8,9087,10700,Deceased,Yes
+PID33,73,Female,Asthma,Michigan Health Center,Pediatrics,Dr. Kumar,Medicaid,Southfield,MI,2/8/2024,2/17/2024,9,3504,7154,Transferred,No
+PID34,52,Male,Infection,Michigan Health Center,Emergency,Dr. Smith,Self-Pay,Detroit,MI,1/4/2024,1/17/2024,13,9345,9917,Improved,No
+PID35,18,Male,Hypertension,Troy General Hospital,Cardiology,Dr. Patel,Private,Canton,MI,7/2/2024,7/16/2024,14,8106,9963,Deceased,Yes
+PID36,23,Female,Hypertension,Michigan Health Center,Emergency,Dr. Kumar,Self-Pay,Detroit,MI,10/12/2024,10/24/2024,12,5869,8890,Transferred,Yes
+PID37,81,Male,Infection,Detroit Lakes Medical,Emergency,Dr. Johnson,Medicaid,Troy,MI,9/27/2024,10/9/2024,12,6039,6655,Recovered,Yes
+PID38,28,Male,Heart Failure,Michigan Health Center,Pediatrics,Dr. Patel,Medicare,Troy,MI,2/7/2024,2/22/2024,15,3606,7366,Transferred,Yes
+PID39,59,Male,Heart Failure,Troy General Hospital,Emergency,Dr. Patel,Private,Canton,MI,6/6/2024,6/11/2024,5,2597,5695,Improved,Yes
+PID40,31,Female,Arthritis,South Canton Care,Cardiology,Dr. Kumar,Self-Pay,Southfield,MI,8/6/2024,8/13/2024,7,6852,8530,Transferred,Yes
+PID41,78,Male,Infection,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Medicare,Ann Arbor,MI,3/25/2024,4/8/2024,14,7187,8307,Deceased,Yes
+PID42,39,Female,Arthritis,Royal Womens Hospital,Neurology,Dr. Johnson,Private,Detroit,MI,2/24/2024,3/9/2024,14,7518,11202,Transferred,No
+PID43,12,Male,Fracture,Troy General Hospital,Emergency,Dr. Lee,Private,Ann Arbor,MI,8/26/2024,9/2/2024,7,4074,5076,Transferred,No
+PID44,60,Male,Arthritis,Michigan Health Center,Neurology,Dr. Smith,Medicare,Troy,MI,4/19/2024,4/24/2024,5,8410,9287,Improved,No
+PID45,5,Female,Fracture,Troy General Hospital,Cardiology,Dr. Lee,Medicare,Detroit,MI,2/2/2024,2/10/2024,8,8847,12015,Deceased,Yes
+PID46,16,Male,Arthritis,Detroit Lakes Medical,Orthopedics,Dr. Patel,Self-Pay,Detroit,MI,8/20/2024,8/21/2024,1,2029,2842,Transferred,Yes
+PID47,89,Male,Asthma,Detroit Lakes Medical,Emergency,Dr. Lee,Medicaid,Southfield,MI,5/25/2024,5/31/2024,6,10989,13655,Transferred,No
+PID48,31,Male,Diabetes,Troy General Hospital,Cardiology,Dr. Kumar,Private,Ann Arbor,MI,3/4/2024,3/12/2024,8,7751,9009,Recovered,Yes
+PID49,50,Female,Infection,Troy General Hospital,Cardiology,Dr. Lee,Self-Pay,Troy,MI,3/21/2024,3/29/2024,8,5864,6818,Transferred,Yes
+PID50,65,Female,Infection,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicare,Detroit,MI,1/12/2024,1/18/2024,6,5832,8617,Deceased,No
+PID51,18,Male,Migraine,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Southfield,MI,6/16/2024,6/30/2024,14,10773,14030,Recovered,No
+PID52,71,Female,Heart Failure,Royal Womens Hospital,Neurology,Dr. Patel,Self-Pay,Ann Arbor,MI,3/4/2024,3/11/2024,7,4718,6883,Recovered,No
+PID53,20,Female,Pneumonia,Troy General Hospital,Emergency,Dr. Lee,Self-Pay,Detroit,MI,4/23/2024,4/24/2024,1,2482,3414,Transferred,No
+PID54,64,Male,Stroke,Royal Womens Hospital,Pediatrics,Dr. Patel,Self-Pay,Troy,MI,12/9/2024,12/15/2024,6,4287,4973,Improved,Yes
+PID55,64,Female,Asthma,South Canton Care,Emergency,Dr. Lee,Self-Pay,Troy,MI,9/19/2024,9/25/2024,6,2477,4001,Transferred,Yes
+PID56,21,Female,Stroke,Royal Womens Hospital,Emergency,Dr. Lee,Private,Ann Arbor,MI,7/31/2024,8/4/2024,4,5991,6744,Deceased,Yes
+PID57,6,Female,Arthritis,Detroit Lakes Medical,Emergency,Dr. Smith,Medicare,Canton,MI,12/10/2024,12/14/2024,4,10144,13966,Improved,No
+PID58,33,Female,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Patel,Medicaid,Troy,MI,11/29/2024,12/11/2024,12,10440,11080,Transferred,No
+PID59,51,Female,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Smith,Medicaid,Ann Arbor,MI,1/3/2024,1/10/2024,7,9778,11159,Transferred,No
+PID60,58,Female,Fracture,Troy General Hospital,Cardiology,Dr. Johnson,Medicaid,Southfield,MI,6/30/2024,7/5/2024,5,9971,13622,Deceased,No
+PID61,47,Male,Infection,South Canton Care,Orthopedics,Dr. Kumar,Self-Pay,Southfield,MI,5/2/2024,5/4/2024,2,6817,8366,Transferred,Yes
+PID62,60,Male,Diabetes,Royal Womens Hospital,Emergency,Dr. Patel,Self-Pay,Detroit,MI,10/13/2024,10/26/2024,13,7347,7927,Recovered,Yes
+PID63,62,Female,Pneumonia,South Canton Care,Neurology,Dr. Kumar,Medicaid,Detroit,MI,9/10/2024,9/24/2024,14,9969,10637,Deceased,No
+PID64,49,Male,Asthma,South Canton Care,Emergency,Dr. Kumar,Medicare,Southfield,MI,6/24/2024,7/7/2024,13,10191,10707,Improved,Yes
+PID65,29,Male,Pneumonia,South Canton Care,Neurology,Dr. Patel,Private,Ann Arbor,MI,6/2/2024,6/6/2024,4,7176,7931,Transferred,Yes
+PID66,38,Female,Pneumonia,Detroit Lakes Medical,Emergency,Dr. Kumar,Medicare,Canton,MI,1/11/2024,1/21/2024,10,8267,12214,Improved,Yes
+PID67,41,Female,Pneumonia,Troy General Hospital,Pediatrics,Dr. Smith,Medicaid,Southfield,MI,5/24/2024,6/7/2024,14,9860,13271,Recovered,Yes
+PID68,55,Male,Fracture,Troy General Hospital,Neurology,Dr. Smith,Medicare,Southfield,MI,3/1/2024,3/7/2024,6,3221,5013,Deceased,No
+PID69,7,Female,Hypertension,Troy General Hospital,Emergency,Dr. Patel,Medicaid,Ann Arbor,MI,2/2/2024,2/8/2024,6,5381,9117,Improved,Yes
+PID70,16,Male,Migraine,Royal Womens Hospital,Cardiology,Dr. Smith,Self-Pay,Troy,MI,6/19/2024,6/29/2024,10,9708,10321,Transferred,No
+PID71,39,Female,Hypertension,Michigan Health Center,Cardiology,Dr. Johnson,Self-Pay,Troy,MI,12/17/2024,12/28/2024,11,3935,6317,Deceased,Yes
+PID72,26,Male,Migraine,Michigan Health Center,Pediatrics,Dr. Smith,Private,Ann Arbor,MI,9/30/2024,10/8/2024,8,9647,12642,Transferred,Yes
+PID73,19,Female,Infection,Troy General Hospital,Neurology,Dr. Smith,Medicaid,Canton,MI,5/7/2024,5/13/2024,6,5479,6928,Transferred,No
+PID74,81,Female,Infection,Troy General Hospital,Cardiology,Dr. Johnson,Self-Pay,Canton,MI,2/24/2024,3/4/2024,9,8624,11386,Improved,Yes
+PID75,57,Female,Pneumonia,South Canton Care,Emergency,Dr. Patel,Medicare,Detroit,MI,9/2/2024,9/14/2024,12,10084,11340,Transferred,No
+PID76,80,Female,Stroke,Troy General Hospital,Emergency,Dr. Lee,Self-Pay,Detroit,MI,7/9/2024,7/15/2024,6,8347,10280,Deceased,Yes
+PID77,73,Male,Hypertension,South Canton Care,Neurology,Dr. Kumar,Private,Southfield,MI,7/8/2024,7/12/2024,4,2211,3878,Deceased,No
+PID78,76,Female,Heart Failure,Michigan Health Center,Pediatrics,Dr. Kumar,Medicaid,Ann Arbor,MI,12/23/2024,12/31/2024,8,9531,10363,Improved,Yes
+PID79,68,Female,Infection,Detroit Lakes Medical,Emergency,Dr. Kumar,Medicaid,Detroit,MI,3/23/2024,3/30/2024,7,7145,7814,Recovered,Yes
+PID80,58,Male,Hypertension,Troy General Hospital,Cardiology,Dr. Kumar,Self-Pay,Southfield,MI,10/25/2024,11/5/2024,11,9042,12632,Deceased,Yes
+PID81,74,Male,Heart Failure,Troy General Hospital,Neurology,Dr. Smith,Private,Southfield,MI,12/6/2024,12/11/2024,5,8003,11620,Recovered,No
+PID82,75,Female,Migraine,South Canton Care,Cardiology,Dr. Kumar,Medicare,Troy,MI,1/29/2024,1/30/2024,1,2141,3557,Deceased,Yes
+PID83,61,Female,Stroke,Michigan Health Center,Cardiology,Dr. Patel,Private,Troy,MI,6/4/2024,6/11/2024,7,9122,11052,Improved,No
+PID84,44,Female,Asthma,South Canton Care,Pediatrics,Dr. Kumar,Medicare,Troy,MI,10/9/2024,10/11/2024,2,11347,12504,Deceased,Yes
+PID85,19,Male,Infection,Michigan Health Center,Cardiology,Dr. Johnson,Private,Canton,MI,4/7/2024,4/8/2024,1,5870,7395,Transferred,Yes
+PID86,90,Male,Fracture,South Canton Care,Emergency,Dr. Johnson,Medicaid,Detroit,MI,8/2/2024,8/12/2024,10,3530,7411,Deceased,No
+PID87,45,Female,Stroke,Michigan Health Center,Orthopedics,Dr. Lee,Medicare,Southfield,MI,3/30/2024,4/2/2024,3,7351,9286,Transferred,No
+PID88,18,Female,Fracture,Troy General Hospital,Cardiology,Dr. Lee,Self-Pay,Troy,MI,11/4/2024,11/8/2024,4,11835,14998,Recovered,Yes
+PID89,7,Male,Stroke,Michigan Health Center,Orthopedics,Dr. Johnson,Self-Pay,Ann Arbor,MI,8/8/2024,8/21/2024,13,11128,13335,Deceased,No
+PID90,29,Male,Hypertension,Detroit Lakes Medical,Pediatrics,Dr. Smith,Medicare,Troy,MI,12/27/2024,1/6/2025,10,11888,13917,Recovered,No
+PID91,49,Male,Infection,Royal Womens Hospital,Orthopedics,Dr. Kumar,Private,Detroit,MI,3/6/2024,3/16/2024,10,4311,7933,Deceased,No
+PID92,25,Male,Asthma,Troy General Hospital,Cardiology,Dr. Johnson,Private,Troy,MI,4/22/2024,4/29/2024,7,5404,6987,Recovered,Yes
+PID93,49,Male,Stroke,Michigan Health Center,Neurology,Dr. Patel,Medicaid,Canton,MI,11/18/2024,11/27/2024,9,10548,13285,Transferred,No
+PID94,25,Male,Infection,Michigan Health Center,Emergency,Dr. Lee,Medicare,Canton,MI,7/23/2024,7/31/2024,8,7693,9146,Improved,No
+PID95,10,Male,Arthritis,Royal Womens Hospital,Pediatrics,Dr. Patel,Private,Detroit,MI,12/2/2024,12/8/2024,6,5202,8965,Recovered,Yes
+PID96,82,Female,Heart Failure,Royal Womens Hospital,Orthopedics,Dr. Johnson,Private,Canton,MI,4/30/2024,5/13/2024,13,5541,7093,Improved,Yes
+PID97,15,Male,Asthma,Detroit Lakes Medical,Neurology,Dr. Kumar,Self-Pay,Detroit,MI,4/17/2024,4/29/2024,12,6254,7153,Improved,Yes
+PID98,44,Female,Fracture,Michigan Health Center,Neurology,Dr. Kumar,Self-Pay,Detroit,MI,7/20/2024,8/4/2024,15,3367,5231,Recovered,Yes
+PID99,81,Female,Asthma,South Canton Care,Cardiology,Dr. Lee,Private,Troy,MI,7/1/2024,7/11/2024,10,5772,7373,Transferred,Yes
+PID100,7,Female,Asthma,Royal Womens Hospital,Orthopedics,Dr. Smith,Private,Canton,MI,10/19/2024,11/3/2024,15,9708,13661,Transferred,Yes
+PID101,66,Male,Heart Failure,Michigan Health Center,Orthopedics,Dr. Kumar,Medicare,Detroit,MI,2/6/2024,2/13/2024,7,7915,8695,Recovered,No
+PID102,66,Male,Hypertension,South Canton Care,Cardiology,Dr. Johnson,Private,Troy,MI,7/19/2024,8/2/2024,14,6907,9861,Improved,No
+PID103,4,Male,Fracture,Michigan Health Center,Emergency,Dr. Johnson,Medicaid,Detroit,MI,3/23/2024,3/24/2024,1,5610,8368,Improved,Yes
+PID104,72,Female,Hypertension,Royal Womens Hospital,Pediatrics,Dr. Johnson,Medicare,Southfield,MI,4/14/2024,4/28/2024,14,11981,13285,Deceased,Yes
+PID105,32,Female,Fracture,Michigan Health Center,Neurology,Dr. Johnson,Medicaid,Ann Arbor,MI,7/27/2024,7/29/2024,2,2074,5566,Transferred,No
+PID106,32,Female,Arthritis,Royal Womens Hospital,Orthopedics,Dr. Kumar,Private,Ann Arbor,MI,7/10/2024,7/21/2024,11,5364,9306,Recovered,Yes
+PID107,54,Female,Stroke,Michigan Health Center,Neurology,Dr. Patel,Medicare,Canton,MI,4/8/2024,4/23/2024,15,2485,5183,Deceased,Yes
+PID108,40,Female,Asthma,South Canton Care,Pediatrics,Dr. Smith,Self-Pay,Canton,MI,4/19/2024,4/23/2024,4,7778,9223,Recovered,Yes
+PID109,55,Male,Hypertension,Troy General Hospital,Pediatrics,Dr. Lee,Self-Pay,Canton,MI,11/26/2024,12/3/2024,7,10351,14334,Deceased,Yes
+PID110,63,Male,Stroke,South Canton Care,Cardiology,Dr. Johnson,Private,Ann Arbor,MI,2/10/2024,2/18/2024,8,7162,9572,Improved,No
+PID111,39,Female,Pneumonia,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Medicare,Southfield,MI,11/1/2024,11/3/2024,2,4642,5398,Transferred,No
+PID112,22,Female,Hypertension,Royal Womens Hospital,Cardiology,Dr. Lee,Medicare,Ann Arbor,MI,5/15/2024,5/26/2024,11,9359,12787,Transferred,Yes
+PID113,74,Female,Fracture,Michigan Health Center,Neurology,Dr. Kumar,Self-Pay,Ann Arbor,MI,2/15/2024,2/16/2024,1,3223,6892,Recovered,Yes
+PID114,54,Male,Arthritis,Royal Womens Hospital,Emergency,Dr. Kumar,Medicaid,Ann Arbor,MI,4/21/2024,4/26/2024,5,11559,12143,Recovered,Yes
+PID115,37,Male,Migraine,Detroit Lakes Medical,Neurology,Dr. Lee,Medicaid,Southfield,MI,1/5/2024,1/13/2024,8,10381,11281,Deceased,No
+PID116,62,Male,Heart Failure,Royal Womens Hospital,Emergency,Dr. Patel,Self-Pay,Detroit,MI,4/26/2024,5/10/2024,14,4449,6926,Transferred,Yes
+PID117,46,Male,Hypertension,Michigan Health Center,Cardiology,Dr. Lee,Private,Ann Arbor,MI,10/21/2024,10/29/2024,8,9702,13148,Transferred,Yes
+PID118,10,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Lee,Medicaid,Detroit,MI,1/9/2024,1/10/2024,1,5900,8782,Recovered,Yes
+PID119,46,Male,Pneumonia,Troy General Hospital,Neurology,Dr. Kumar,Private,Troy,MI,5/16/2024,5/28/2024,12,9000,10524,Recovered,Yes
+PID120,78,Male,Heart Failure,Troy General Hospital,Emergency,Dr. Johnson,Medicare,Ann Arbor,MI,6/8/2024,6/16/2024,8,8267,9880,Recovered,Yes
+PID121,59,Male,Heart Failure,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Self-Pay,Southfield,MI,3/20/2024,3/26/2024,6,11346,14217,Improved,No
+PID122,17,Male,Fracture,Royal Womens Hospital,Neurology,Dr. Patel,Medicaid,Troy,MI,11/30/2024,12/11/2024,11,4224,7013,Recovered,No
+PID123,35,Female,Infection,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicaid,Southfield,MI,1/4/2024,1/11/2024,7,8241,11905,Improved,No
+PID124,23,Male,Heart Failure,South Canton Care,Emergency,Dr. Patel,Private,Ann Arbor,MI,9/2/2024,9/4/2024,2,2207,5780,Recovered,Yes
+PID125,46,Male,Fracture,South Canton Care,Emergency,Dr. Patel,Medicaid,Ann Arbor,MI,3/28/2024,4/11/2024,14,3522,6333,Improved,Yes
+PID126,79,Female,Heart Failure,Michigan Health Center,Pediatrics,Dr. Lee,Medicare,Canton,MI,7/14/2024,7/27/2024,13,6757,8807,Recovered,Yes
+PID127,65,Male,Infection,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicare,Troy,MI,10/10/2024,10/14/2024,4,2169,3790,Transferred,No
+PID128,40,Male,Infection,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicaid,Ann Arbor,MI,7/13/2024,7/23/2024,10,4238,7157,Recovered,Yes
+PID129,51,Male,Hypertension,Troy General Hospital,Emergency,Dr. Smith,Medicaid,Detroit,MI,4/22/2024,5/6/2024,14,7825,8445,Deceased,No
+PID130,74,Male,Heart Failure,Royal Womens Hospital,Neurology,Dr. Kumar,Medicaid,Troy,MI,10/17/2024,10/23/2024,6,11417,14989,Recovered,Yes
+PID131,75,Female,Fracture,Troy General Hospital,Orthopedics,Dr. Lee,Self-Pay,Detroit,MI,1/25/2024,1/28/2024,3,4145,5614,Transferred,No
+PID132,63,Female,Fracture,Detroit Lakes Medical,Neurology,Dr. Johnson,Private,Southfield,MI,3/8/2024,3/21/2024,13,6674,10590,Improved,No
+PID133,8,Male,Migraine,Detroit Lakes Medical,Cardiology,Dr. Lee,Self-Pay,Southfield,MI,4/17/2024,5/2/2024,15,7387,11149,Recovered,Yes
+PID134,73,Female,Heart Failure,South Canton Care,Neurology,Dr. Patel,Medicaid,Detroit,MI,5/9/2024,5/18/2024,9,7550,10481,Transferred,No
+PID135,85,Male,Diabetes,Troy General Hospital,Orthopedics,Dr. Johnson,Private,Southfield,MI,8/31/2024,9/15/2024,15,4535,6507,Transferred,Yes
+PID136,19,Male,Fracture,Royal Womens Hospital,Orthopedics,Dr. Smith,Medicare,Southfield,MI,5/11/2024,5/19/2024,8,9556,10063,Improved,No
+PID137,24,Female,Fracture,South Canton Care,Cardiology,Dr. Johnson,Self-Pay,Canton,MI,8/18/2024,8/28/2024,10,7748,11699,Improved,No
+PID138,68,Male,Fracture,Detroit Lakes Medical,Neurology,Dr. Johnson,Private,Southfield,MI,9/10/2024,9/13/2024,3,10089,12850,Deceased,Yes
+PID139,11,Male,Infection,Troy General Hospital,Neurology,Dr. Patel,Private,Southfield,MI,11/24/2024,12/3/2024,9,10788,11290,Improved,No
+PID140,63,Male,Heart Failure,Michigan Health Center,Pediatrics,Dr. Patel,Self-Pay,Detroit,MI,3/13/2024,3/22/2024,9,4762,8404,Improved,Yes
+PID141,40,Male,Migraine,Detroit Lakes Medical,Orthopedics,Dr. Smith,Medicaid,Detroit,MI,5/19/2024,5/29/2024,10,11791,15309,Deceased,Yes
+PID142,2,Female,Infection,South Canton Care,Orthopedics,Dr. Patel,Self-Pay,Ann Arbor,MI,4/22/2024,4/25/2024,3,7144,9055,Improved,Yes
+PID143,68,Male,Arthritis,Royal Womens Hospital,Cardiology,Dr. Lee,Self-Pay,Detroit,MI,11/17/2024,11/20/2024,3,9118,10333,Improved,Yes
+PID144,76,Female,Infection,Troy General Hospital,Pediatrics,Dr. Patel,Private,Canton,MI,12/4/2024,12/13/2024,9,9917,11770,Deceased,No
+PID145,20,Male,Migraine,South Canton Care,Pediatrics,Dr. Patel,Private,Southfield,MI,8/2/2024,8/10/2024,8,11883,15649,Improved,No
+PID146,59,Female,Asthma,Detroit Lakes Medical,Neurology,Dr. Smith,Private,Southfield,MI,1/18/2024,1/28/2024,10,3696,6900,Improved,Yes
+PID147,83,Male,Hypertension,South Canton Care,Cardiology,Dr. Patel,Medicare,Detroit,MI,4/1/2024,4/16/2024,15,8236,8856,Recovered,Yes
+PID148,43,Female,Heart Failure,Troy General Hospital,Cardiology,Dr. Kumar,Medicare,Canton,MI,11/22/2024,12/2/2024,10,3145,5979,Recovered,Yes
+PID149,34,Male,Pneumonia,Troy General Hospital,Neurology,Dr. Patel,Private,Detroit,MI,3/24/2024,3/29/2024,5,4323,6665,Transferred,No
+PID150,70,Female,Asthma,Royal Womens Hospital,Cardiology,Dr. Kumar,Medicare,Detroit,MI,2/7/2024,2/21/2024,14,9886,12402,Recovered,No
+PID151,47,Male,Infection,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicare,Southfield,MI,12/21/2024,12/22/2024,1,10748,14259,Transferred,No
+PID152,90,Male,Diabetes,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Troy,MI,9/9/2024,9/22/2024,13,8906,10812,Improved,Yes
+PID153,20,Female,Asthma,Royal Womens Hospital,Neurology,Dr. Lee,Medicare,Troy,MI,3/19/2024,3/27/2024,8,7212,9859,Transferred,Yes
+PID154,25,Female,Diabetes,Detroit Lakes Medical,Emergency,Dr. Smith,Medicaid,Southfield,MI,3/8/2024,3/17/2024,9,2275,4841,Transferred,No
+PID155,56,Male,Fracture,Detroit Lakes Medical,Neurology,Dr. Smith,Medicaid,Ann Arbor,MI,9/2/2024,9/3/2024,1,11433,13685,Transferred,No
+PID156,39,Female,Asthma,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicaid,Southfield,MI,6/13/2024,6/21/2024,8,5359,7957,Transferred,No
+PID157,35,Male,Infection,Royal Womens Hospital,Orthopedics,Dr. Johnson,Medicare,Canton,MI,12/22/2024,12/26/2024,4,2723,4161,Recovered,Yes
+PID158,77,Female,Asthma,Royal Womens Hospital,Neurology,Dr. Johnson,Self-Pay,Southfield,MI,12/6/2024,12/9/2024,3,10908,12033,Deceased,Yes
+PID159,5,Female,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Patel,Private,Canton,MI,10/14/2024,10/21/2024,7,2796,4066,Recovered,Yes
+PID160,79,Male,Diabetes,South Canton Care,Neurology,Dr. Johnson,Medicaid,Ann Arbor,MI,6/19/2024,7/1/2024,12,7215,8371,Improved,Yes
+PID161,64,Male,Arthritis,Michigan Health Center,Pediatrics,Dr. Johnson,Medicare,Detroit,MI,12/21/2024,1/4/2025,14,6559,7865,Deceased,Yes
+PID162,13,Male,Diabetes,South Canton Care,Emergency,Dr. Lee,Medicare,Detroit,MI,11/2/2024,11/8/2024,6,3006,6291,Transferred,No
+PID163,66,Female,Migraine,Troy General Hospital,Pediatrics,Dr. Smith,Medicare,Canton,MI,1/12/2024,1/20/2024,8,8905,10691,Deceased,No
+PID164,83,Female,Pneumonia,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Canton,MI,2/4/2024,2/9/2024,5,8377,9742,Improved,No
+PID165,90,Female,Stroke,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Detroit,MI,11/8/2024,11/12/2024,4,3227,6582,Transferred,Yes
+PID166,59,Female,Fracture,South Canton Care,Emergency,Dr. Smith,Self-Pay,Troy,MI,3/15/2024,3/23/2024,8,11979,15544,Recovered,No
+PID167,64,Female,Fracture,Detroit Lakes Medical,Cardiology,Dr. Lee,Medicaid,Troy,MI,8/3/2024,8/17/2024,14,2017,4425,Recovered,Yes
+PID168,62,Male,Infection,Troy General Hospital,Emergency,Dr. Johnson,Self-Pay,Ann Arbor,MI,3/30/2024,3/31/2024,1,5392,6067,Improved,No
+PID169,39,Female,Pneumonia,South Canton Care,Emergency,Dr. Smith,Self-Pay,Troy,MI,8/22/2024,9/4/2024,13,6684,10599,Recovered,No
+PID170,35,Male,Asthma,Michigan Health Center,Cardiology,Dr. Smith,Self-Pay,Southfield,MI,4/23/2024,5/8/2024,15,8446,11710,Improved,Yes
+PID171,61,Male,Infection,Troy General Hospital,Emergency,Dr. Johnson,Medicare,Ann Arbor,MI,7/6/2024,7/14/2024,8,9300,12610,Deceased,Yes
+PID172,75,Female,Stroke,Michigan Health Center,Cardiology,Dr. Lee,Medicare,Detroit,MI,3/17/2024,3/26/2024,9,9694,11688,Improved,No
+PID173,57,Male,Diabetes,South Canton Care,Neurology,Dr. Johnson,Private,Southfield,MI,12/3/2024,12/15/2024,12,9381,12800,Recovered,No
+PID174,73,Female,Diabetes,Michigan Health Center,Neurology,Dr. Johnson,Medicaid,Canton,MI,10/2/2024,10/11/2024,9,9291,12014,Transferred,No
+PID175,28,Female,Hypertension,Troy General Hospital,Emergency,Dr. Smith,Medicare,Detroit,MI,9/9/2024,9/10/2024,1,4962,8685,Improved,No
+PID176,40,Female,Arthritis,Royal Womens Hospital,Cardiology,Dr. Kumar,Private,Canton,MI,1/29/2024,2/1/2024,3,4204,5229,Transferred,Yes
+PID177,75,Male,Diabetes,South Canton Care,Emergency,Dr. Lee,Private,Southfield,MI,1/11/2024,1/13/2024,2,11532,14999,Transferred,No
+PID178,37,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Smith,Medicaid,Ann Arbor,MI,6/2/2024,6/10/2024,8,6596,7192,Recovered,Yes
+PID179,14,Male,Fracture,Troy General Hospital,Neurology,Dr. Lee,Self-Pay,Ann Arbor,MI,9/2/2024,9/7/2024,5,10979,13807,Deceased,No
+PID180,42,Female,Diabetes,South Canton Care,Pediatrics,Dr. Johnson,Private,Southfield,MI,9/21/2024,10/5/2024,14,4867,6121,Improved,Yes
+PID181,38,Female,Asthma,South Canton Care,Cardiology,Dr. Johnson,Private,Ann Arbor,MI,10/4/2024,10/7/2024,3,6935,9169,Deceased,Yes
+PID182,4,Male,Diabetes,South Canton Care,Neurology,Dr. Smith,Medicare,Troy,MI,9/13/2024,9/17/2024,4,3046,5548,Transferred,Yes
+PID183,29,Female,Diabetes,Troy General Hospital,Orthopedics,Dr. Patel,Medicare,Southfield,MI,3/26/2024,4/3/2024,8,2984,4164,Deceased,Yes
+PID184,28,Male,Asthma,Royal Womens Hospital,Pediatrics,Dr. Johnson,Medicaid,Ann Arbor,MI,4/27/2024,5/6/2024,9,8867,10229,Recovered,No
+PID185,71,Female,Heart Failure,Detroit Lakes Medical,Emergency,Dr. Patel,Medicaid,Canton,MI,5/19/2024,5/25/2024,6,5320,7618,Recovered,No
+PID186,53,Male,Migraine,Troy General Hospital,Cardiology,Dr. Kumar,Medicaid,Ann Arbor,MI,1/9/2024,1/10/2024,1,10509,12938,Improved,Yes
+PID187,66,Female,Heart Failure,Detroit Lakes Medical,Emergency,Dr. Johnson,Private,Canton,MI,9/27/2024,9/30/2024,3,8189,10405,Transferred,No
+PID188,57,Male,Asthma,Royal Womens Hospital,Pediatrics,Dr. Smith,Self-Pay,Detroit,MI,12/9/2024,12/21/2024,12,4437,7802,Transferred,No
+PID189,39,Male,Hypertension,Detroit Lakes Medical,Emergency,Dr. Lee,Medicare,Detroit,MI,8/12/2024,8/17/2024,5,5305,9301,Improved,Yes
+PID190,41,Male,Migraine,South Canton Care,Cardiology,Dr. Patel,Medicare,Detroit,MI,3/22/2024,3/24/2024,2,2774,5403,Improved,Yes
+PID191,25,Female,Infection,Michigan Health Center,Emergency,Dr. Smith,Medicaid,Ann Arbor,MI,11/8/2024,11/21/2024,13,5191,7847,Improved,Yes
+PID192,13,Male,Arthritis,Detroit Lakes Medical,Orthopedics,Dr. Kumar,Self-Pay,Ann Arbor,MI,11/18/2024,11/28/2024,10,4539,5060,Improved,Yes
+PID193,1,Female,Diabetes,Royal Womens Hospital,Emergency,Dr. Smith,Medicare,Ann Arbor,MI,7/2/2024,7/9/2024,7,7189,8962,Improved,No
+PID194,22,Male,Diabetes,Michigan Health Center,Emergency,Dr. Johnson,Medicaid,Southfield,MI,3/25/2024,4/4/2024,10,4504,6649,Transferred,No
+PID195,60,Male,Heart Failure,Troy General Hospital,Orthopedics,Dr. Patel,Self-Pay,Detroit,MI,4/19/2024,5/2/2024,13,2487,5139,Recovered,No
+PID196,76,Male,Infection,Troy General Hospital,Emergency,Dr. Lee,Private,Ann Arbor,MI,3/27/2024,4/2/2024,6,10231,11650,Transferred,No
+PID197,89,Female,Stroke,South Canton Care,Orthopedics,Dr. Smith,Self-Pay,Canton,MI,6/4/2024,6/8/2024,4,5102,5639,Recovered,Yes
+PID198,33,Female,Stroke,Royal Womens Hospital,Neurology,Dr. Smith,Private,Ann Arbor,MI,6/28/2024,7/2/2024,4,2564,5280,Improved,No
+PID199,35,Female,Stroke,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicare,Troy,MI,11/20/2024,11/26/2024,6,6830,10659,Recovered,Yes
+PID200,10,Male,Arthritis,Detroit Lakes Medical,Neurology,Dr. Smith,Medicaid,Ann Arbor,MI,8/16/2024,8/25/2024,9,5027,6263,Deceased,Yes
+PID201,30,Female,Fracture,Michigan Health Center,Pediatrics,Dr. Johnson,Self-Pay,Canton,MI,9/1/2024,9/6/2024,5,5385,7918,Deceased,No
+PID202,17,Female,Infection,Royal Womens Hospital,Orthopedics,Dr. Johnson,Medicare,Southfield,MI,11/14/2024,11/22/2024,8,2907,6844,Transferred,Yes
+PID203,57,Female,Pneumonia,Detroit Lakes Medical,Neurology,Dr. Kumar,Medicaid,Detroit,MI,9/22/2024,10/2/2024,10,5601,6945,Recovered,Yes
+PID204,72,Male,Infection,Troy General Hospital,Pediatrics,Dr. Lee,Medicaid,Ann Arbor,MI,10/21/2024,10/25/2024,4,5928,6510,Transferred,Yes
+PID205,77,Female,Infection,Royal Womens Hospital,Cardiology,Dr. Patel,Medicaid,Troy,MI,7/29/2024,8/2/2024,4,2351,4924,Recovered,Yes
+PID206,10,Male,Migraine,South Canton Care,Cardiology,Dr. Smith,Private,Southfield,MI,9/15/2024,9/21/2024,6,4009,7813,Deceased,Yes
+PID207,42,Female,Stroke,Detroit Lakes Medical,Emergency,Dr. Patel,Medicaid,Detroit,MI,9/18/2024,9/22/2024,4,7010,9397,Deceased,No
+PID208,14,Male,Migraine,Michigan Health Center,Cardiology,Dr. Lee,Private,Canton,MI,9/21/2024,9/23/2024,2,10946,13369,Deceased,Yes
+PID209,57,Male,Heart Failure,Troy General Hospital,Neurology,Dr. Kumar,Private,Canton,MI,4/16/2024,4/25/2024,9,5454,7601,Deceased,No
+PID210,2,Female,Asthma,Detroit Lakes Medical,Emergency,Dr. Smith,Private,Ann Arbor,MI,4/10/2024,4/18/2024,8,6434,9836,Deceased,Yes
+PID211,19,Female,Hypertension,Royal Womens Hospital,Emergency,Dr. Kumar,Medicare,Ann Arbor,MI,3/23/2024,3/25/2024,2,5060,6308,Transferred,No
+PID212,71,Male,Heart Failure,South Canton Care,Neurology,Dr. Patel,Medicaid,Southfield,MI,4/11/2024,4/21/2024,10,6322,7622,Transferred,Yes
+PID213,18,Female,Stroke,Michigan Health Center,Cardiology,Dr. Lee,Medicare,Southfield,MI,3/27/2024,4/8/2024,12,8183,8779,Improved,Yes
+PID214,78,Female,Infection,Troy General Hospital,Cardiology,Dr. Johnson,Medicaid,Troy,MI,4/23/2024,5/7/2024,14,2434,6094,Deceased,Yes
+PID215,77,Female,Asthma,South Canton Care,Emergency,Dr. Johnson,Private,Detroit,MI,3/14/2024,3/27/2024,13,2854,5067,Deceased,Yes
+PID216,36,Male,Hypertension,Michigan Health Center,Emergency,Dr. Smith,Self-Pay,Southfield,MI,7/14/2024,7/25/2024,11,5140,7109,Improved,No
+PID217,37,Female,Fracture,South Canton Care,Cardiology,Dr. Johnson,Medicare,Detroit,MI,1/19/2024,2/2/2024,14,8344,11133,Recovered,Yes
+PID218,27,Female,Pneumonia,Michigan Health Center,Cardiology,Dr. Patel,Medicaid,Ann Arbor,MI,10/12/2024,10/21/2024,9,9685,13543,Recovered,Yes
+PID219,33,Female,Fracture,South Canton Care,Emergency,Dr. Johnson,Self-Pay,Troy,MI,1/20/2024,2/4/2024,15,10772,13905,Deceased,No
+PID220,70,Male,Diabetes,Troy General Hospital,Cardiology,Dr. Smith,Private,Canton,MI,8/4/2024,8/7/2024,3,11054,11676,Deceased,Yes
+PID221,53,Male,Fracture,Detroit Lakes Medical,Emergency,Dr. Johnson,Medicare,Canton,MI,2/14/2024,2/23/2024,9,2845,4612,Transferred,Yes
+PID222,10,Female,Stroke,Royal Womens Hospital,Pediatrics,Dr. Lee,Self-Pay,Troy,MI,7/13/2024,7/16/2024,3,4160,7399,Deceased,Yes
+PID223,7,Female,Pneumonia,Detroit Lakes Medical,Neurology,Dr. Lee,Medicaid,Canton,MI,4/20/2024,4/30/2024,10,9427,11172,Improved,No
+PID224,49,Male,Heart Failure,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicare,Canton,MI,4/21/2024,4/23/2024,2,9876,11350,Deceased,No
+PID225,30,Female,Diabetes,Troy General Hospital,Pediatrics,Dr. Patel,Medicaid,Ann Arbor,MI,2/14/2024,2/29/2024,15,3299,5874,Deceased,No
+PID226,64,Female,Migraine,Royal Womens Hospital,Cardiology,Dr. Smith,Medicaid,Ann Arbor,MI,8/24/2024,8/28/2024,4,2638,4068,Improved,No
+PID227,42,Female,Heart Failure,Troy General Hospital,Orthopedics,Dr. Smith,Medicaid,Troy,MI,4/23/2024,4/24/2024,1,11102,12390,Deceased,No
+PID228,58,Female,Stroke,South Canton Care,Emergency,Dr. Lee,Medicaid,Southfield,MI,5/20/2024,6/1/2024,12,3339,6985,Transferred,No
+PID229,17,Female,Infection,Royal Womens Hospital,Neurology,Dr. Johnson,Medicaid,Ann Arbor,MI,7/9/2024,7/13/2024,4,6659,9503,Deceased,No
+PID230,90,Male,Hypertension,Detroit Lakes Medical,Orthopedics,Dr. Kumar,Medicare,Southfield,MI,4/3/2024,4/8/2024,5,10308,11536,Recovered,No
+PID231,84,Female,Asthma,Royal Womens Hospital,Pediatrics,Dr. Kumar,Self-Pay,Southfield,MI,6/17/2024,6/22/2024,5,2776,3684,Deceased,Yes
+PID232,85,Male,Infection,Detroit Lakes Medical,Orthopedics,Dr. Smith,Private,Detroit,MI,11/14/2024,11/17/2024,3,4898,7722,Transferred,Yes
+PID233,48,Female,Arthritis,Troy General Hospital,Cardiology,Dr. Smith,Private,Detroit,MI,1/13/2024,1/23/2024,10,4245,5477,Recovered,No
+PID234,38,Female,Pneumonia,Michigan Health Center,Emergency,Dr. Kumar,Medicare,Detroit,MI,7/5/2024,7/14/2024,9,3999,6016,Transferred,No
+PID235,10,Female,Fracture,South Canton Care,Neurology,Dr. Johnson,Self-Pay,Troy,MI,12/22/2024,1/5/2025,14,4012,5600,Deceased,Yes
+PID236,23,Female,Diabetes,Detroit Lakes Medical,Neurology,Dr. Smith,Medicare,Detroit,MI,3/20/2024,4/1/2024,12,4331,5813,Improved,Yes
+PID237,79,Female,Arthritis,Troy General Hospital,Cardiology,Dr. Lee,Medicare,Ann Arbor,MI,8/23/2024,9/4/2024,12,7686,10624,Deceased,No
+PID238,29,Female,Infection,Royal Womens Hospital,Emergency,Dr. Lee,Medicaid,Canton,MI,1/17/2024,1/24/2024,7,2765,5828,Deceased,No
+PID239,45,Male,Fracture,Detroit Lakes Medical,Pediatrics,Dr. Smith,Medicare,Canton,MI,1/24/2024,2/1/2024,8,2195,4949,Deceased,Yes
+PID240,10,Female,Arthritis,South Canton Care,Orthopedics,Dr. Smith,Medicaid,Southfield,MI,2/6/2024,2/11/2024,5,6481,9907,Improved,Yes
+PID241,16,Male,Pneumonia,South Canton Care,Neurology,Dr. Patel,Self-Pay,Southfield,MI,9/22/2024,10/4/2024,12,6508,7170,Transferred,Yes
+PID242,6,Male,Arthritis,Troy General Hospital,Pediatrics,Dr. Johnson,Medicaid,Canton,MI,10/30/2024,11/10/2024,11,8451,9587,Recovered,Yes
+PID243,49,Female,Pneumonia,Michigan Health Center,Pediatrics,Dr. Patel,Medicare,Ann Arbor,MI,5/10/2024,5/17/2024,7,9663,10646,Improved,No
+PID244,8,Female,Hypertension,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Detroit,MI,10/8/2024,10/18/2024,10,5693,6257,Deceased,Yes
+PID245,51,Female,Pneumonia,Michigan Health Center,Cardiology,Dr. Smith,Medicaid,Detroit,MI,11/7/2024,11/22/2024,15,11085,13215,Improved,No
+PID246,75,Male,Stroke,South Canton Care,Orthopedics,Dr. Smith,Medicare,Southfield,MI,8/23/2024,8/29/2024,6,9409,10234,Recovered,No
+PID247,63,Male,Fracture,South Canton Care,Pediatrics,Dr. Kumar,Medicaid,Southfield,MI,5/30/2024,6/12/2024,13,6626,7194,Deceased,Yes
+PID248,14,Female,Asthma,Royal Womens Hospital,Emergency,Dr. Kumar,Medicaid,Troy,MI,12/21/2024,1/5/2025,15,10570,13298,Recovered,Yes
+PID249,14,Male,Heart Failure,Michigan Health Center,Pediatrics,Dr. Johnson,Medicare,Southfield,MI,8/5/2024,8/6/2024,1,4269,7718,Transferred,No
+PID250,51,Male,Hypertension,South Canton Care,Orthopedics,Dr. Smith,Private,Canton,MI,10/18/2024,10/21/2024,3,5030,9024,Improved,No
+PID251,25,Female,Pneumonia,Michigan Health Center,Emergency,Dr. Patel,Private,Canton,MI,5/20/2024,5/24/2024,4,6539,8231,Improved,No
+PID252,74,Male,Hypertension,Detroit Lakes Medical,Emergency,Dr. Kumar,Private,Detroit,MI,3/2/2024,3/17/2024,15,4171,5079,Deceased,No
+PID253,25,Male,Infection,Michigan Health Center,Cardiology,Dr. Johnson,Self-Pay,Ann Arbor,MI,2/14/2024,2/15/2024,1,11040,14201,Transferred,No
+PID254,61,Female,Stroke,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicaid,Troy,MI,5/20/2024,5/22/2024,2,4775,8262,Deceased,No
+PID255,42,Female,Hypertension,Troy General Hospital,Emergency,Dr. Kumar,Medicaid,Southfield,MI,1/23/2024,1/28/2024,5,8001,11981,Transferred,Yes
+PID256,71,Male,Hypertension,Royal Womens Hospital,Cardiology,Dr. Johnson,Private,Canton,MI,4/18/2024,4/22/2024,4,5475,6383,Transferred,No
+PID257,61,Male,Infection,Detroit Lakes Medical,Emergency,Dr. Johnson,Medicaid,Southfield,MI,11/4/2024,11/17/2024,13,4672,8537,Recovered,No
+PID258,39,Female,Pneumonia,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Private,Detroit,MI,12/13/2024,12/17/2024,4,3118,4024,Deceased,Yes
+PID259,25,Male,Diabetes,Royal Womens Hospital,Cardiology,Dr. Kumar,Self-Pay,Troy,MI,1/23/2024,2/3/2024,11,7918,10064,Improved,Yes
+PID260,35,Male,Stroke,Michigan Health Center,Cardiology,Dr. Kumar,Private,Southfield,MI,8/1/2024,8/8/2024,7,4480,8002,Transferred,Yes
+PID261,8,Female,Asthma,Detroit Lakes Medical,Emergency,Dr. Smith,Medicare,Canton,MI,4/20/2024,4/26/2024,6,9642,11554,Recovered,No
+PID262,76,Female,Diabetes,South Canton Care,Orthopedics,Dr. Johnson,Medicare,Troy,MI,10/20/2024,11/2/2024,13,2380,4649,Deceased,No
+PID263,25,Male,Diabetes,South Canton Care,Pediatrics,Dr. Patel,Private,Troy,MI,5/25/2024,6/8/2024,14,5350,5943,Deceased,Yes
+PID264,90,Female,Pneumonia,Detroit Lakes Medical,Emergency,Dr. Smith,Private,Canton,MI,7/26/2024,8/5/2024,10,11512,14062,Improved,No
+PID265,9,Male,Stroke,Royal Womens Hospital,Pediatrics,Dr. Patel,Private,Canton,MI,1/19/2024,1/24/2024,5,9957,11636,Improved,Yes
+PID266,29,Female,Asthma,Royal Womens Hospital,Pediatrics,Dr. Patel,Medicaid,Troy,MI,10/10/2024,10/21/2024,11,8438,9955,Transferred,No
+PID267,5,Female,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicare,Detroit,MI,1/22/2024,2/6/2024,15,7891,11884,Deceased,No
+PID268,67,Male,Arthritis,Troy General Hospital,Cardiology,Dr. Kumar,Self-Pay,Canton,MI,7/19/2024,7/27/2024,8,11006,14888,Transferred,No
+PID269,44,Female,Diabetes,Royal Womens Hospital,Neurology,Dr. Patel,Self-Pay,Ann Arbor,MI,6/27/2024,7/5/2024,8,5400,7265,Deceased,Yes
+PID270,5,Male,Hypertension,Royal Womens Hospital,Cardiology,Dr. Patel,Medicaid,Ann Arbor,MI,11/18/2024,11/28/2024,10,8199,8738,Deceased,No
+PID271,69,Male,Arthritis,South Canton Care,Emergency,Dr. Johnson,Self-Pay,Troy,MI,8/18/2024,8/19/2024,1,7594,11187,Improved,No
+PID272,34,Female,Fracture,Royal Womens Hospital,Cardiology,Dr. Smith,Medicare,Detroit,MI,4/3/2024,4/7/2024,4,2497,4916,Deceased,Yes
+PID273,15,Male,Fracture,Detroit Lakes Medical,Emergency,Dr. Patel,Private,Southfield,MI,6/13/2024,6/14/2024,1,4297,5054,Transferred,Yes
+PID274,20,Female,Arthritis,Troy General Hospital,Emergency,Dr. Johnson,Self-Pay,Southfield,MI,5/22/2024,5/24/2024,2,5825,8707,Transferred,Yes
+PID275,20,Male,Hypertension,Troy General Hospital,Emergency,Dr. Johnson,Private,Ann Arbor,MI,5/17/2024,5/31/2024,14,8112,12108,Improved,Yes
+PID276,47,Female,Fracture,Troy General Hospital,Pediatrics,Dr. Patel,Medicaid,Ann Arbor,MI,6/14/2024,6/27/2024,13,9005,10547,Recovered,Yes
+PID277,61,Male,Infection,Troy General Hospital,Orthopedics,Dr. Lee,Medicare,Canton,MI,9/22/2024,10/7/2024,15,7641,10189,Improved,Yes
+PID278,61,Male,Infection,South Canton Care,Orthopedics,Dr. Kumar,Private,Troy,MI,5/13/2024,5/16/2024,3,2776,6052,Deceased,No
+PID279,63,Female,Hypertension,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Southfield,MI,2/21/2024,3/6/2024,14,11676,15204,Improved,Yes
+PID280,35,Female,Fracture,Troy General Hospital,Cardiology,Dr. Patel,Medicaid,Ann Arbor,MI,7/13/2024,7/15/2024,2,2025,3010,Recovered,No
+PID281,80,Male,Infection,Royal Womens Hospital,Neurology,Dr. Lee,Medicaid,Detroit,MI,3/16/2024,3/22/2024,6,8458,9546,Transferred,Yes
+PID282,4,Female,Stroke,Royal Womens Hospital,Emergency,Dr. Patel,Self-Pay,Troy,MI,4/14/2024,4/21/2024,7,3731,4384,Improved,No
+PID283,58,Female,Infection,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicaid,Southfield,MI,2/15/2024,2/18/2024,3,8651,9424,Recovered,No
+PID284,47,Female,Pneumonia,Royal Womens Hospital,Pediatrics,Dr. Lee,Private,Detroit,MI,6/5/2024,6/7/2024,2,2126,2824,Recovered,No
+PID285,38,Female,Fracture,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Detroit,MI,11/6/2024,11/18/2024,12,8586,11265,Transferred,Yes
+PID286,55,Female,Infection,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Self-Pay,Troy,MI,3/25/2024,4/1/2024,7,11213,13725,Recovered,No
+PID287,54,Female,Migraine,Troy General Hospital,Emergency,Dr. Smith,Medicaid,Ann Arbor,MI,11/9/2024,11/23/2024,14,9575,10119,Transferred,No
+PID288,88,Male,Fracture,Detroit Lakes Medical,Emergency,Dr. Smith,Self-Pay,Canton,MI,9/2/2024,9/7/2024,5,5298,9227,Recovered,Yes
+PID289,81,Male,Arthritis,South Canton Care,Emergency,Dr. Johnson,Self-Pay,Detroit,MI,7/19/2024,7/28/2024,9,7391,9838,Recovered,Yes
+PID290,19,Male,Heart Failure,Royal Womens Hospital,Emergency,Dr. Patel,Medicare,Detroit,MI,12/28/2024,1/4/2025,7,3993,6572,Improved,No
+PID291,29,Female,Hypertension,Royal Womens Hospital,Emergency,Dr. Smith,Medicare,Troy,MI,10/7/2024,10/17/2024,10,9634,13301,Deceased,Yes
+PID292,74,Male,Infection,South Canton Care,Cardiology,Dr. Smith,Medicaid,Detroit,MI,2/17/2024,3/1/2024,13,8103,10021,Recovered,Yes
+PID293,58,Female,Hypertension,Royal Womens Hospital,Neurology,Dr. Smith,Self-Pay,Southfield,MI,6/20/2024,6/21/2024,1,2021,4534,Deceased,Yes
+PID294,70,Male,Pneumonia,South Canton Care,Neurology,Dr. Smith,Medicare,Ann Arbor,MI,4/18/2024,4/25/2024,7,10624,14363,Improved,No
+PID295,21,Female,Asthma,Troy General Hospital,Emergency,Dr. Patel,Private,Canton,MI,8/16/2024,8/20/2024,4,7547,11054,Transferred,No
+PID296,5,Male,Fracture,South Canton Care,Cardiology,Dr. Patel,Self-Pay,Detroit,MI,12/23/2024,12/26/2024,3,4125,5785,Recovered,Yes
+PID297,7,Female,Pneumonia,South Canton Care,Emergency,Dr. Lee,Medicare,Canton,MI,6/6/2024,6/11/2024,5,5830,7013,Deceased,No
+PID298,20,Female,Heart Failure,Detroit Lakes Medical,Emergency,Dr. Patel,Medicare,Canton,MI,5/31/2024,6/6/2024,6,5209,5787,Transferred,No
+PID299,61,Female,Hypertension,Troy General Hospital,Neurology,Dr. Smith,Self-Pay,Ann Arbor,MI,2/23/2024,3/1/2024,7,4590,5766,Improved,No
+PID300,78,Female,Diabetes,South Canton Care,Pediatrics,Dr. Lee,Self-Pay,Ann Arbor,MI,9/29/2024,10/14/2024,15,9169,10864,Recovered,No
+PID301,25,Female,Arthritis,Royal Womens Hospital,Orthopedics,Dr. Johnson,Medicaid,Canton,MI,6/27/2024,6/29/2024,2,6128,6869,Deceased,Yes
+PID302,53,Female,Hypertension,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicare,Detroit,MI,10/12/2024,10/23/2024,11,6644,7614,Deceased,Yes
+PID303,15,Male,Heart Failure,Michigan Health Center,Neurology,Dr. Smith,Self-Pay,Ann Arbor,MI,12/5/2024,12/16/2024,11,2692,3334,Improved,Yes
+PID304,20,Female,Heart Failure,Troy General Hospital,Pediatrics,Dr. Johnson,Medicare,Ann Arbor,MI,3/10/2024,3/25/2024,15,2272,3934,Deceased,No
+PID305,56,Male,Fracture,South Canton Care,Emergency,Dr. Johnson,Medicaid,Ann Arbor,MI,6/1/2024,6/7/2024,6,6837,10286,Improved,Yes
+PID306,17,Male,Infection,Troy General Hospital,Pediatrics,Dr. Johnson,Private,Canton,MI,6/16/2024,6/17/2024,1,2907,4294,Recovered,No
+PID307,74,Female,Hypertension,Detroit Lakes Medical,Cardiology,Dr. Johnson,Medicaid,Detroit,MI,8/16/2024,8/30/2024,14,7705,10017,Deceased,No
+PID308,15,Male,Heart Failure,Troy General Hospital,Cardiology,Dr. Lee,Self-Pay,Detroit,MI,1/27/2024,2/8/2024,12,10727,12259,Improved,Yes
+PID309,47,Female,Infection,Troy General Hospital,Pediatrics,Dr. Smith,Medicaid,Southfield,MI,7/13/2024,7/24/2024,11,11595,13159,Recovered,No
+PID310,74,Male,Stroke,South Canton Care,Pediatrics,Dr. Lee,Private,Southfield,MI,5/19/2024,5/20/2024,1,7498,10428,Deceased,No
+PID311,51,Female,Arthritis,Troy General Hospital,Emergency,Dr. Lee,Medicaid,Southfield,MI,7/26/2024,7/29/2024,3,2378,4205,Recovered,Yes
+PID312,43,Male,Infection,Troy General Hospital,Emergency,Dr. Kumar,Self-Pay,Canton,MI,11/25/2024,12/6/2024,11,10235,11657,Improved,Yes
+PID313,61,Male,Infection,South Canton Care,Orthopedics,Dr. Smith,Private,Troy,MI,8/7/2024,8/17/2024,10,10613,12098,Recovered,Yes
+PID314,40,Male,Hypertension,Detroit Lakes Medical,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,8/12/2024,8/17/2024,5,4119,6568,Recovered,Yes
+PID315,48,Male,Asthma,Royal Womens Hospital,Pediatrics,Dr. Patel,Medicaid,Troy,MI,6/28/2024,7/8/2024,10,8385,12152,Recovered,No
+PID316,17,Male,Pneumonia,Detroit Lakes Medical,Emergency,Dr. Lee,Private,Troy,MI,3/26/2024,4/4/2024,9,11071,12004,Improved,Yes
+PID317,6,Male,Infection,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Medicaid,Detroit,MI,11/10/2024,11/17/2024,7,6493,7116,Recovered,No
+PID318,67,Male,Migraine,South Canton Care,Pediatrics,Dr. Patel,Private,Troy,MI,9/14/2024,9/29/2024,15,5820,6778,Improved,No
+PID319,27,Male,Stroke,Michigan Health Center,Pediatrics,Dr. Lee,Self-Pay,Troy,MI,7/4/2024,7/13/2024,9,5512,6548,Transferred,Yes
+PID320,44,Male,Arthritis,South Canton Care,Orthopedics,Dr. Smith,Medicare,Troy,MI,8/7/2024,8/10/2024,3,6310,8465,Transferred,No
+PID321,11,Female,Hypertension,Royal Womens Hospital,Orthopedics,Dr. Lee,Private,Ann Arbor,MI,10/12/2024,10/22/2024,10,2032,5142,Recovered,Yes
+PID322,48,Male,Arthritis,South Canton Care,Orthopedics,Dr. Patel,Medicare,Canton,MI,8/23/2024,9/2/2024,10,3651,5876,Recovered,No
+PID323,36,Female,Migraine,Detroit Lakes Medical,Pediatrics,Dr. Lee,Medicaid,Ann Arbor,MI,10/6/2024,10/18/2024,12,9238,12953,Deceased,Yes
+PID324,1,Male,Infection,South Canton Care,Orthopedics,Dr. Lee,Medicaid,Detroit,MI,9/22/2024,9/27/2024,5,2737,6677,Recovered,Yes
+PID325,86,Male,Infection,Royal Womens Hospital,Pediatrics,Dr. Kumar,Private,Detroit,MI,5/6/2024,5/9/2024,3,3980,5663,Improved,No
+PID326,58,Female,Asthma,Troy General Hospital,Pediatrics,Dr. Smith,Self-Pay,Canton,MI,4/11/2024,4/12/2024,1,2466,5026,Recovered,Yes
+PID327,25,Male,Hypertension,South Canton Care,Emergency,Dr. Smith,Medicare,Troy,MI,1/9/2024,1/10/2024,1,2168,5444,Improved,Yes
+PID328,27,Male,Diabetes,South Canton Care,Emergency,Dr. Johnson,Self-Pay,Southfield,MI,5/14/2024,5/20/2024,6,6503,8365,Deceased,No
+PID329,1,Female,Hypertension,Detroit Lakes Medical,Emergency,Dr. Smith,Medicare,Canton,MI,4/24/2024,5/5/2024,11,11194,14456,Improved,No
+PID330,47,Male,Asthma,South Canton Care,Cardiology,Dr. Smith,Self-Pay,Southfield,MI,2/26/2024,2/29/2024,3,9675,13289,Recovered,Yes
+PID331,30,Male,Hypertension,Michigan Health Center,Orthopedics,Dr. Johnson,Medicare,Canton,MI,12/28/2024,1/12/2025,15,8663,12432,Improved,Yes
+PID332,80,Male,Asthma,Troy General Hospital,Pediatrics,Dr. Patel,Self-Pay,Ann Arbor,MI,2/22/2024,2/24/2024,2,10632,11927,Improved,Yes
+PID333,67,Male,Migraine,Troy General Hospital,Neurology,Dr. Patel,Private,Southfield,MI,6/4/2024,6/15/2024,11,3586,6060,Improved,Yes
+PID334,68,Male,Heart Failure,Troy General Hospital,Pediatrics,Dr. Smith,Medicare,Troy,MI,12/29/2024,12/30/2024,1,11836,12652,Transferred,Yes
+PID335,48,Male,Infection,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Self-Pay,Canton,MI,12/29/2024,1/10/2025,12,2275,3288,Recovered,No
+PID336,1,Male,Fracture,Troy General Hospital,Pediatrics,Dr. Kumar,Private,Canton,MI,3/10/2024,3/14/2024,4,6562,8614,Deceased,Yes
+PID337,21,Male,Asthma,Troy General Hospital,Orthopedics,Dr. Patel,Medicaid,Ann Arbor,MI,6/18/2024,6/30/2024,12,3519,6546,Improved,No
+PID338,40,Male,Asthma,South Canton Care,Cardiology,Dr. Patel,Private,Detroit,MI,5/3/2024,5/4/2024,1,8215,8995,Transferred,No
+PID339,56,Female,Arthritis,Michigan Health Center,Neurology,Dr. Kumar,Private,Southfield,MI,5/27/2024,6/3/2024,7,7017,9753,Improved,No
+PID340,4,Female,Stroke,Troy General Hospital,Neurology,Dr. Lee,Self-Pay,Canton,MI,2/5/2024,2/9/2024,4,9748,10990,Improved,No
+PID341,65,Male,Hypertension,Troy General Hospital,Pediatrics,Dr. Smith,Private,Canton,MI,2/11/2024,2/16/2024,5,3831,5604,Recovered,No
+PID342,75,Female,Hypertension,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Medicaid,Troy,MI,10/20/2024,10/29/2024,9,9002,11530,Transferred,No
+PID343,44,Female,Arthritis,South Canton Care,Cardiology,Dr. Smith,Self-Pay,Southfield,MI,12/22/2024,12/27/2024,5,8823,10904,Recovered,No
+PID344,63,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,5/16/2024,5/22/2024,6,5261,8505,Deceased,Yes
+PID345,30,Male,Stroke,Michigan Health Center,Neurology,Dr. Smith,Private,Ann Arbor,MI,11/26/2024,12/11/2024,15,11809,13083,Improved,Yes
+PID346,48,Female,Infection,Michigan Health Center,Neurology,Dr. Smith,Medicare,Ann Arbor,MI,9/20/2024,9/23/2024,3,4713,5372,Recovered,Yes
+PID347,55,Male,Hypertension,Detroit Lakes Medical,Neurology,Dr. Kumar,Medicaid,Ann Arbor,MI,2/25/2024,3/9/2024,13,9810,11139,Deceased,No
+PID348,14,Male,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Johnson,Private,Detroit,MI,10/9/2024,10/23/2024,14,2807,6161,Improved,No
+PID349,16,Male,Fracture,Detroit Lakes Medical,Pediatrics,Dr. Patel,Medicaid,Southfield,MI,4/2/2024,4/9/2024,7,9463,12238,Recovered,No
+PID350,66,Male,Infection,Detroit Lakes Medical,Orthopedics,Dr. Patel,Medicare,Canton,MI,10/20/2024,10/27/2024,7,10592,13261,Improved,Yes
+PID351,83,Male,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Johnson,Medicare,Troy,MI,7/10/2024,7/20/2024,10,3704,6757,Transferred,No
+PID352,69,Female,Heart Failure,South Canton Care,Orthopedics,Dr. Smith,Medicare,Southfield,MI,6/5/2024,6/17/2024,12,3120,4793,Deceased,No
+PID353,82,Female,Asthma,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicare,Ann Arbor,MI,12/7/2024,12/19/2024,12,4377,6671,Deceased,Yes
+PID354,1,Male,Infection,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicaid,Troy,MI,10/13/2024,10/28/2024,15,11660,14192,Improved,Yes
+PID355,75,Male,Stroke,Royal Womens Hospital,Cardiology,Dr. Kumar,Self-Pay,Troy,MI,9/13/2024,9/28/2024,15,8116,10521,Deceased,No
+PID356,17,Male,Pneumonia,Troy General Hospital,Cardiology,Dr. Smith,Medicare,Ann Arbor,MI,7/28/2024,8/6/2024,9,10228,12384,Transferred,No
+PID357,5,Male,Diabetes,South Canton Care,Emergency,Dr. Kumar,Medicare,Ann Arbor,MI,6/23/2024,7/8/2024,15,9259,10802,Recovered,Yes
+PID358,83,Male,Infection,South Canton Care,Pediatrics,Dr. Johnson,Medicaid,Detroit,MI,1/29/2024,2/5/2024,7,6723,7945,Recovered,No
+PID359,29,Female,Infection,South Canton Care,Cardiology,Dr. Lee,Medicaid,Detroit,MI,3/8/2024,3/17/2024,9,2290,4284,Deceased,Yes
+PID360,46,Male,Heart Failure,South Canton Care,Cardiology,Dr. Smith,Medicaid,Canton,MI,4/7/2024,4/20/2024,13,2487,5319,Transferred,Yes
+PID361,90,Female,Hypertension,Royal Womens Hospital,Orthopedics,Dr. Smith,Medicaid,Ann Arbor,MI,10/3/2024,10/15/2024,12,2362,3041,Improved,Yes
+PID362,33,Female,Heart Failure,Troy General Hospital,Pediatrics,Dr. Patel,Medicare,Ann Arbor,MI,2/8/2024,2/18/2024,10,3643,6406,Transferred,Yes
+PID363,70,Female,Asthma,South Canton Care,Cardiology,Dr. Smith,Private,Detroit,MI,9/22/2024,10/6/2024,14,11158,11971,Deceased,Yes
+PID364,21,Female,Migraine,Michigan Health Center,Orthopedics,Dr. Lee,Self-Pay,Canton,MI,8/25/2024,9/9/2024,15,9273,10610,Deceased,No
+PID365,40,Male,Asthma,South Canton Care,Cardiology,Dr. Lee,Self-Pay,Detroit,MI,3/27/2024,4/3/2024,7,7574,11327,Improved,Yes
+PID366,21,Male,Diabetes,Troy General Hospital,Neurology,Dr. Lee,Medicaid,Detroit,MI,3/2/2024,3/3/2024,1,6713,9049,Deceased,No
+PID367,69,Male,Diabetes,Royal Womens Hospital,Neurology,Dr. Patel,Medicare,Ann Arbor,MI,3/14/2024,3/18/2024,4,2956,6643,Improved,Yes
+PID368,9,Female,Infection,Michigan Health Center,Pediatrics,Dr. Johnson,Medicaid,Southfield,MI,1/27/2024,2/2/2024,6,10395,12216,Transferred,Yes
+PID369,76,Female,Migraine,Detroit Lakes Medical,Emergency,Dr. Lee,Medicaid,Southfield,MI,5/9/2024,5/20/2024,11,8923,11644,Recovered,No
+PID370,58,Female,Arthritis,Michigan Health Center,Pediatrics,Dr. Patel,Self-Pay,Ann Arbor,MI,9/12/2024,9/26/2024,14,11778,12436,Recovered,Yes
+PID371,70,Male,Pneumonia,Royal Womens Hospital,Emergency,Dr. Smith,Private,Troy,MI,6/2/2024,6/5/2024,3,11542,15306,Deceased,No
+PID372,57,Female,Arthritis,Michigan Health Center,Orthopedics,Dr. Patel,Private,Southfield,MI,1/11/2024,1/19/2024,8,6269,10259,Improved,Yes
+PID373,71,Female,Pneumonia,Michigan Health Center,Neurology,Dr. Patel,Medicaid,Detroit,MI,6/14/2024,6/23/2024,9,2563,6259,Recovered,Yes
+PID374,68,Female,Arthritis,South Canton Care,Neurology,Dr. Patel,Medicare,Canton,MI,12/12/2024,12/24/2024,12,11482,12627,Recovered,No
+PID375,58,Female,Diabetes,Troy General Hospital,Pediatrics,Dr. Patel,Self-Pay,Southfield,MI,1/19/2024,2/3/2024,15,6073,9051,Improved,No
+PID376,21,Female,Asthma,Michigan Health Center,Orthopedics,Dr. Patel,Self-Pay,Troy,MI,1/13/2024,1/23/2024,10,10435,11136,Recovered,No
+PID377,18,Female,Fracture,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Southfield,MI,2/19/2024,2/25/2024,6,7013,9042,Improved,No
+PID378,29,Male,Stroke,Royal Womens Hospital,Pediatrics,Dr. Kumar,Medicare,Southfield,MI,11/25/2024,12/1/2024,6,9445,12414,Transferred,Yes
+PID379,9,Female,Asthma,Royal Womens Hospital,Neurology,Dr. Johnson,Private,Southfield,MI,9/9/2024,9/22/2024,13,8162,9786,Deceased,No
+PID380,45,Male,Migraine,Troy General Hospital,Cardiology,Dr. Smith,Medicare,Canton,MI,7/30/2024,8/8/2024,9,7771,8506,Recovered,Yes
+PID381,90,Female,Stroke,South Canton Care,Orthopedics,Dr. Johnson,Medicare,Southfield,MI,2/17/2024,2/27/2024,10,8665,12355,Improved,Yes
+PID382,53,Female,Asthma,Detroit Lakes Medical,Emergency,Dr. Johnson,Private,Ann Arbor,MI,5/17/2024,5/29/2024,12,2445,3658,Recovered,Yes
+PID383,19,Male,Stroke,Michigan Health Center,Pediatrics,Dr. Kumar,Self-Pay,Southfield,MI,11/22/2024,11/30/2024,8,10636,12771,Transferred,Yes
+PID384,59,Male,Stroke,Michigan Health Center,Neurology,Dr. Johnson,Medicaid,Ann Arbor,MI,10/7/2024,10/19/2024,12,8298,11776,Recovered,No
+PID385,82,Male,Infection,South Canton Care,Pediatrics,Dr. Lee,Medicare,Canton,MI,12/6/2024,12/19/2024,13,2245,4860,Deceased,Yes
+PID386,29,Male,Infection,Troy General Hospital,Cardiology,Dr. Patel,Medicaid,Canton,MI,10/13/2024,10/27/2024,14,6652,7730,Transferred,No
+PID387,7,Female,Hypertension,Detroit Lakes Medical,Emergency,Dr. Patel,Private,Ann Arbor,MI,4/5/2024,4/6/2024,1,10169,10869,Transferred,No
+PID388,44,Male,Pneumonia,Royal Womens Hospital,Pediatrics,Dr. Patel,Medicare,Ann Arbor,MI,3/4/2024,3/12/2024,8,8703,11450,Recovered,No
+PID389,48,Female,Pneumonia,Michigan Health Center,Neurology,Dr. Kumar,Private,Southfield,MI,4/5/2024,4/8/2024,3,4087,4675,Recovered,No
+PID390,88,Female,Diabetes,Michigan Health Center,Cardiology,Dr. Patel,Medicaid,Ann Arbor,MI,5/2/2024,5/12/2024,10,5291,6125,Recovered,Yes
+PID391,76,Male,Arthritis,South Canton Care,Cardiology,Dr. Johnson,Self-Pay,Detroit,MI,2/28/2024,3/14/2024,15,11490,12007,Improved,Yes
+PID392,64,Female,Stroke,South Canton Care,Emergency,Dr. Kumar,Private,Ann Arbor,MI,4/1/2024,4/15/2024,14,10042,12611,Improved,Yes
+PID393,76,Female,Fracture,Troy General Hospital,Neurology,Dr. Lee,Private,Canton,MI,6/2/2024,6/15/2024,13,5429,8915,Transferred,Yes
+PID394,55,Female,Fracture,Royal Womens Hospital,Emergency,Dr. Lee,Self-Pay,Ann Arbor,MI,11/1/2024,11/4/2024,3,11590,13475,Transferred,Yes
+PID395,63,Male,Migraine,Troy General Hospital,Pediatrics,Dr. Johnson,Medicaid,Southfield,MI,5/16/2024,5/22/2024,6,11127,12594,Recovered,Yes
+PID396,49,Male,Diabetes,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Self-Pay,Ann Arbor,MI,3/15/2024,3/24/2024,9,5860,9758,Transferred,Yes
+PID397,77,Male,Arthritis,Michigan Health Center,Emergency,Dr. Smith,Medicaid,Ann Arbor,MI,2/17/2024,2/28/2024,11,2234,5435,Recovered,Yes
+PID398,46,Male,Stroke,Detroit Lakes Medical,Neurology,Dr. Lee,Medicare,Troy,MI,11/13/2024,11/18/2024,5,11929,13880,Transferred,No
+PID399,8,Female,Fracture,South Canton Care,Neurology,Dr. Kumar,Medicaid,Canton,MI,2/28/2024,3/1/2024,2,2804,6164,Deceased,No
+PID400,30,Female,Asthma,Michigan Health Center,Cardiology,Dr. Johnson,Self-Pay,Detroit,MI,12/5/2024,12/6/2024,1,11116,14266,Improved,Yes
+PID401,57,Male,Heart Failure,Michigan Health Center,Orthopedics,Dr. Smith,Private,Canton,MI,4/22/2024,4/25/2024,3,3396,5173,Improved,No
+PID402,86,Female,Stroke,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Private,Ann Arbor,MI,1/3/2024,1/14/2024,11,10922,12876,Improved,No
+PID403,71,Male,Fracture,Michigan Health Center,Cardiology,Dr. Lee,Private,Canton,MI,1/1/2024,1/6/2024,5,6362,7697,Recovered,No
+PID404,68,Female,Infection,Royal Womens Hospital,Emergency,Dr. Johnson,Self-Pay,Troy,MI,5/9/2024,5/15/2024,6,8526,9353,Transferred,No
+PID405,50,Male,Arthritis,Detroit Lakes Medical,Neurology,Dr. Kumar,Medicaid,Southfield,MI,6/15/2024,6/28/2024,13,11519,13801,Improved,No
+PID406,19,Male,Hypertension,South Canton Care,Pediatrics,Dr. Smith,Self-Pay,Ann Arbor,MI,9/4/2024,9/12/2024,8,4011,7029,Recovered,No
+PID407,66,Male,Diabetes,Troy General Hospital,Cardiology,Dr. Smith,Self-Pay,Ann Arbor,MI,6/20/2024,6/28/2024,8,7505,10589,Deceased,No
+PID408,59,Male,Asthma,Troy General Hospital,Neurology,Dr. Smith,Medicare,Detroit,MI,2/27/2024,3/13/2024,15,11626,14006,Improved,Yes
+PID409,55,Female,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Lee,Private,Detroit,MI,9/9/2024,9/20/2024,11,10009,13536,Improved,No
+PID410,3,Female,Migraine,Michigan Health Center,Pediatrics,Dr. Smith,Medicaid,Detroit,MI,5/28/2024,6/9/2024,12,3782,4846,Transferred,No
+PID411,40,Female,Migraine,South Canton Care,Cardiology,Dr. Kumar,Medicaid,Detroit,MI,3/31/2024,4/9/2024,9,3480,7453,Improved,No
+PID412,77,Male,Fracture,Royal Womens Hospital,Pediatrics,Dr. Lee,Private,Canton,MI,1/2/2024,1/3/2024,1,2156,5907,Improved,No
+PID413,3,Male,Fracture,Detroit Lakes Medical,Neurology,Dr. Johnson,Private,Detroit,MI,5/21/2024,6/2/2024,12,3781,7356,Improved,Yes
+PID414,40,Male,Hypertension,South Canton Care,Orthopedics,Dr. Johnson,Medicare,Ann Arbor,MI,12/10/2024,12/14/2024,4,6775,8283,Deceased,No
+PID415,14,Female,Heart Failure,Detroit Lakes Medical,Emergency,Dr. Patel,Medicare,Detroit,MI,3/11/2024,3/23/2024,12,2780,5368,Improved,No
+PID416,59,Male,Heart Failure,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Medicaid,Ann Arbor,MI,5/27/2024,5/28/2024,1,3575,5434,Deceased,No
+PID417,62,Female,Heart Failure,South Canton Care,Cardiology,Dr. Lee,Medicare,Canton,MI,12/4/2024,12/5/2024,1,6814,10354,Transferred,Yes
+PID418,73,Female,Diabetes,South Canton Care,Orthopedics,Dr. Johnson,Self-Pay,Canton,MI,1/5/2024,1/19/2024,14,9355,12113,Recovered,Yes
+PID419,47,Female,Arthritis,Michigan Health Center,Emergency,Dr. Lee,Self-Pay,Canton,MI,8/10/2024,8/23/2024,13,3512,5967,Transferred,No
+PID420,32,Female,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Johnson,Medicare,Troy,MI,12/14/2024,12/22/2024,8,6995,8776,Deceased,No
+PID421,28,Male,Fracture,Troy General Hospital,Neurology,Dr. Lee,Medicaid,Detroit,MI,10/29/2024,11/9/2024,11,2777,5905,Recovered,Yes
+PID422,66,Male,Infection,Detroit Lakes Medical,Emergency,Dr. Patel,Medicare,Detroit,MI,6/13/2024,6/22/2024,9,11846,13758,Recovered,No
+PID423,18,Male,Infection,Detroit Lakes Medical,Cardiology,Dr. Kumar,Medicaid,Troy,MI,2/3/2024,2/8/2024,5,9807,10803,Deceased,No
+PID424,70,Female,Migraine,Michigan Health Center,Orthopedics,Dr. Kumar,Private,Ann Arbor,MI,1/28/2024,1/31/2024,3,4139,7118,Recovered,Yes
+PID425,28,Female,Stroke,Troy General Hospital,Neurology,Dr. Kumar,Medicare,Detroit,MI,8/28/2024,9/4/2024,7,7434,8265,Transferred,No
+PID426,88,Female,Migraine,South Canton Care,Cardiology,Dr. Johnson,Private,Canton,MI,7/19/2024,7/27/2024,8,3509,5110,Deceased,Yes
+PID427,73,Male,Infection,South Canton Care,Pediatrics,Dr. Lee,Private,Canton,MI,7/25/2024,8/4/2024,10,3433,5980,Transferred,Yes
+PID428,68,Female,Pneumonia,Troy General Hospital,Neurology,Dr. Smith,Self-Pay,Canton,MI,9/17/2024,9/27/2024,10,10970,14889,Improved,Yes
+PID429,47,Male,Diabetes,South Canton Care,Emergency,Dr. Johnson,Medicare,Canton,MI,4/28/2024,5/13/2024,15,2385,3345,Recovered,No
+PID430,13,Male,Diabetes,Michigan Health Center,Orthopedics,Dr. Lee,Self-Pay,Troy,MI,10/20/2024,10/21/2024,1,3344,4255,Improved,Yes
+PID431,45,Female,Stroke,Detroit Lakes Medical,Neurology,Dr. Kumar,Medicaid,Detroit,MI,1/7/2024,1/17/2024,10,3313,6772,Transferred,Yes
+PID432,8,Female,Asthma,Detroit Lakes Medical,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,10/28/2024,11/11/2024,14,10792,13431,Recovered,No
+PID433,5,Female,Diabetes,Michigan Health Center,Neurology,Dr. Kumar,Medicaid,Detroit,MI,9/30/2024,10/2/2024,2,9891,11218,Recovered,Yes
+PID434,5,Male,Fracture,Detroit Lakes Medical,Cardiology,Dr. Lee,Medicare,Canton,MI,2/25/2024,3/9/2024,13,9595,13413,Recovered,Yes
+PID435,21,Female,Hypertension,Troy General Hospital,Neurology,Dr. Patel,Self-Pay,Canton,MI,8/1/2024,8/5/2024,4,8883,10658,Improved,Yes
+PID436,87,Male,Hypertension,Michigan Health Center,Orthopedics,Dr. Kumar,Private,Southfield,MI,8/10/2024,8/21/2024,11,3650,5448,Recovered,No
+PID437,54,Female,Stroke,South Canton Care,Orthopedics,Dr. Smith,Private,Troy,MI,12/6/2024,12/12/2024,6,9848,11849,Transferred,Yes
+PID438,44,Male,Arthritis,Royal Womens Hospital,Neurology,Dr. Patel,Medicare,Southfield,MI,6/23/2024,6/27/2024,4,9704,10310,Deceased,No
+PID439,86,Male,Stroke,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Ann Arbor,MI,6/9/2024,6/23/2024,14,4713,5325,Improved,Yes
+PID440,1,Female,Asthma,South Canton Care,Orthopedics,Dr. Smith,Private,Detroit,MI,10/14/2024,10/21/2024,7,10226,13963,Deceased,No
+PID441,22,Male,Stroke,Troy General Hospital,Cardiology,Dr. Johnson,Private,Canton,MI,2/13/2024,2/24/2024,11,11556,14406,Recovered,Yes
+PID442,73,Female,Pneumonia,Troy General Hospital,Neurology,Dr. Smith,Self-Pay,Troy,MI,1/4/2024,1/6/2024,2,5623,9278,Transferred,No
+PID443,29,Female,Heart Failure,South Canton Care,Emergency,Dr. Patel,Medicare,Canton,MI,6/24/2024,7/5/2024,11,10035,11454,Deceased,Yes
+PID444,3,Female,Stroke,Royal Womens Hospital,Pediatrics,Dr. Lee,Self-Pay,Detroit,MI,7/13/2024,7/18/2024,5,4809,8533,Improved,Yes
+PID445,66,Female,Heart Failure,Michigan Health Center,Neurology,Dr. Johnson,Private,Canton,MI,3/10/2024,3/14/2024,4,2619,5477,Transferred,Yes
+PID446,24,Female,Diabetes,Royal Womens Hospital,Orthopedics,Dr. Johnson,Private,Canton,MI,5/3/2024,5/11/2024,8,5671,8114,Recovered,No
+PID447,26,Male,Stroke,Royal Womens Hospital,Orthopedics,Dr. Smith,Medicaid,Ann Arbor,MI,4/5/2024,4/11/2024,6,6641,7349,Deceased,Yes
+PID448,47,Male,Pneumonia,Detroit Lakes Medical,Emergency,Dr. Johnson,Private,Southfield,MI,6/13/2024,6/23/2024,10,5298,7630,Transferred,Yes
+PID449,45,Male,Asthma,Royal Womens Hospital,Orthopedics,Dr. Patel,Medicaid,Ann Arbor,MI,11/20/2024,11/23/2024,3,4449,7898,Transferred,No
+PID450,23,Female,Pneumonia,Detroit Lakes Medical,Orthopedics,Dr. Patel,Medicaid,Ann Arbor,MI,6/7/2024,6/22/2024,15,9870,10565,Deceased,No
+PID451,85,Female,Migraine,Royal Womens Hospital,Emergency,Dr. Smith,Medicare,Troy,MI,1/15/2024,1/18/2024,3,3079,6569,Improved,No
+PID452,60,Male,Pneumonia,Royal Womens Hospital,Pediatrics,Dr. Lee,Private,Troy,MI,5/17/2024,6/1/2024,15,6745,9943,Transferred,No
+PID453,25,Male,Fracture,South Canton Care,Cardiology,Dr. Kumar,Private,Detroit,MI,3/26/2024,3/28/2024,2,7032,8120,Improved,No
+PID454,49,Male,Hypertension,Michigan Health Center,Emergency,Dr. Johnson,Medicare,Southfield,MI,3/21/2024,3/23/2024,2,2516,5340,Deceased,No
+PID455,43,Male,Pneumonia,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicaid,Canton,MI,7/8/2024,7/13/2024,5,10709,11423,Recovered,No
+PID456,47,Male,Fracture,Troy General Hospital,Cardiology,Dr. Smith,Medicare,Detroit,MI,10/27/2024,11/3/2024,7,8387,11300,Transferred,No
+PID457,11,Female,Pneumonia,South Canton Care,Neurology,Dr. Lee,Self-Pay,Southfield,MI,9/17/2024,9/25/2024,8,9172,9682,Deceased,Yes
+PID458,65,Female,Stroke,Michigan Health Center,Orthopedics,Dr. Kumar,Medicaid,Ann Arbor,MI,3/13/2024,3/24/2024,11,4206,7429,Improved,No
+PID459,54,Female,Asthma,South Canton Care,Emergency,Dr. Smith,Medicare,Southfield,MI,9/21/2024,9/22/2024,1,11064,13183,Transferred,Yes
+PID460,19,Male,Infection,Detroit Lakes Medical,Neurology,Dr. Johnson,Medicare,Troy,MI,10/20/2024,10/23/2024,3,7619,10979,Transferred,No
+PID461,87,Female,Asthma,Detroit Lakes Medical,Emergency,Dr. Lee,Private,Ann Arbor,MI,6/17/2024,6/20/2024,3,4237,7601,Transferred,Yes
+PID462,12,Female,Hypertension,South Canton Care,Neurology,Dr. Lee,Medicare,Canton,MI,6/11/2024,6/13/2024,2,8729,9809,Transferred,No
+PID463,83,Male,Diabetes,Michigan Health Center,Emergency,Dr. Smith,Self-Pay,Southfield,MI,10/29/2024,11/8/2024,10,3020,5596,Deceased,No
+PID464,46,Male,Hypertension,Detroit Lakes Medical,Emergency,Dr. Lee,Private,Ann Arbor,MI,5/30/2024,6/10/2024,11,4856,8182,Transferred,Yes
+PID465,81,Female,Infection,Royal Womens Hospital,Emergency,Dr. Kumar,Medicare,Southfield,MI,5/1/2024,5/2/2024,1,5653,6296,Improved,Yes
+PID466,57,Male,Migraine,Royal Womens Hospital,Cardiology,Dr. Patel,Private,Ann Arbor,MI,4/3/2024,4/16/2024,13,2118,3366,Recovered,No
+PID467,21,Female,Diabetes,South Canton Care,Pediatrics,Dr. Smith,Private,Troy,MI,12/17/2024,12/24/2024,7,10977,12242,Transferred,No
+PID468,10,Female,Migraine,Detroit Lakes Medical,Orthopedics,Dr. Patel,Medicaid,Canton,MI,7/21/2024,8/2/2024,12,10099,12674,Recovered,No
+PID469,35,Male,Fracture,South Canton Care,Emergency,Dr. Smith,Medicaid,Canton,MI,3/9/2024,3/24/2024,15,5133,6660,Improved,No
+PID470,10,Female,Hypertension,Detroit Lakes Medical,Neurology,Dr. Lee,Private,Detroit,MI,2/9/2024,2/12/2024,3,4611,8080,Transferred,Yes
+PID471,82,Female,Arthritis,Royal Womens Hospital,Cardiology,Dr. Patel,Self-Pay,Detroit,MI,10/15/2024,10/23/2024,8,6236,8765,Transferred,No
+PID472,33,Female,Infection,Royal Womens Hospital,Pediatrics,Dr. Kumar,Self-Pay,Troy,MI,9/19/2024,9/26/2024,7,8891,12172,Deceased,Yes
+PID473,48,Male,Hypertension,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Self-Pay,Ann Arbor,MI,4/11/2024,4/21/2024,10,6012,7511,Improved,No
+PID474,30,Male,Hypertension,Royal Womens Hospital,Emergency,Dr. Johnson,Private,Ann Arbor,MI,1/4/2024,1/18/2024,14,4080,5351,Recovered,No
+PID475,70,Female,Fracture,Troy General Hospital,Orthopedics,Dr. Kumar,Private,Ann Arbor,MI,8/6/2024,8/21/2024,15,2947,6147,Improved,Yes
+PID476,17,Female,Arthritis,South Canton Care,Pediatrics,Dr. Kumar,Private,Troy,MI,9/27/2024,9/30/2024,3,8619,10599,Recovered,Yes
+PID477,71,Female,Arthritis,South Canton Care,Orthopedics,Dr. Smith,Medicare,Canton,MI,7/1/2024,7/8/2024,7,4377,7513,Recovered,No
+PID478,63,Female,Pneumonia,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Medicaid,Ann Arbor,MI,8/28/2024,9/7/2024,10,2630,4877,Recovered,Yes
+PID479,81,Female,Migraine,South Canton Care,Emergency,Dr. Patel,Self-Pay,Troy,MI,11/1/2024,11/9/2024,8,6263,9315,Transferred,No
+PID480,64,Female,Fracture,Royal Womens Hospital,Pediatrics,Dr. Smith,Medicare,Ann Arbor,MI,9/20/2024,9/23/2024,3,9380,11954,Recovered,Yes
+PID481,68,Female,Pneumonia,South Canton Care,Orthopedics,Dr. Johnson,Medicaid,Troy,MI,11/16/2024,11/23/2024,7,7716,9335,Deceased,No
+PID482,46,Female,Stroke,Michigan Health Center,Orthopedics,Dr. Johnson,Medicare,Canton,MI,6/14/2024,6/26/2024,12,10131,11663,Deceased,No
+PID483,16,Male,Diabetes,Michigan Health Center,Orthopedics,Dr. Lee,Medicare,Troy,MI,12/6/2024,12/19/2024,13,3146,3894,Recovered,No
+PID484,18,Male,Diabetes,Detroit Lakes Medical,Neurology,Dr. Smith,Medicare,Troy,MI,8/7/2024,8/8/2024,1,9257,10252,Transferred,No
+PID485,7,Female,Diabetes,South Canton Care,Pediatrics,Dr. Smith,Medicare,Southfield,MI,4/9/2024,4/20/2024,11,5135,8539,Deceased,No
+PID486,77,Male,Heart Failure,South Canton Care,Orthopedics,Dr. Smith,Private,Canton,MI,2/6/2024,2/15/2024,9,3959,7262,Transferred,No
+PID487,66,Male,Asthma,Troy General Hospital,Cardiology,Dr. Kumar,Medicare,Troy,MI,7/20/2024,8/4/2024,15,10723,11326,Transferred,Yes
+PID488,21,Male,Stroke,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicaid,Troy,MI,7/24/2024,8/4/2024,11,2184,4066,Improved,No
+PID489,78,Female,Pneumonia,Royal Womens Hospital,Orthopedics,Dr. Patel,Medicaid,Southfield,MI,6/8/2024,6/10/2024,2,10936,13966,Transferred,Yes
+PID490,59,Female,Diabetes,Troy General Hospital,Orthopedics,Dr. Smith,Self-Pay,Southfield,MI,1/8/2024,1/21/2024,13,8765,12163,Transferred,No
+PID491,26,Male,Hypertension,Detroit Lakes Medical,Pediatrics,Dr. Smith,Self-Pay,Troy,MI,2/21/2024,2/22/2024,1,11054,14051,Recovered,No
+PID492,79,Female,Infection,Michigan Health Center,Pediatrics,Dr. Smith,Private,Canton,MI,9/9/2024,9/24/2024,15,5343,6359,Improved,Yes
+PID493,64,Male,Stroke,Troy General Hospital,Pediatrics,Dr. Kumar,Self-Pay,Troy,MI,7/1/2024,7/14/2024,13,10672,12047,Transferred,Yes
+PID494,64,Female,Pneumonia,Royal Womens Hospital,Emergency,Dr. Lee,Medicaid,Troy,MI,2/14/2024,2/17/2024,3,5654,9476,Deceased,Yes
+PID495,47,Female,Infection,Troy General Hospital,Orthopedics,Dr. Smith,Medicare,Ann Arbor,MI,2/11/2024,2/21/2024,10,6225,8180,Improved,No
+PID496,86,Female,Migraine,Troy General Hospital,Pediatrics,Dr. Patel,Medicaid,Canton,MI,11/4/2024,11/17/2024,13,8489,11560,Improved,Yes
+PID497,84,Male,Asthma,Michigan Health Center,Pediatrics,Dr. Smith,Private,Ann Arbor,MI,2/23/2024,3/4/2024,10,10245,13988,Transferred,No
+PID498,76,Female,Arthritis,Michigan Health Center,Neurology,Dr. Johnson,Private,Canton,MI,5/28/2024,6/7/2024,10,8745,10373,Deceased,No
+PID499,4,Male,Pneumonia,Royal Womens Hospital,Emergency,Dr. Johnson,Medicare,Troy,MI,8/6/2024,8/7/2024,1,6496,7912,Deceased,Yes
+PID500,85,Male,Arthritis,Detroit Lakes Medical,Orthopedics,Dr. Smith,Self-Pay,Ann Arbor,MI,4/17/2024,4/30/2024,13,11667,15389,Deceased,Yes
+PID501,76,Female,Hypertension,Troy General Hospital,Cardiology,Dr. Smith,Self-Pay,Canton,MI,2/9/2024,2/21/2024,12,8781,12452,Transferred,Yes
+PID502,36,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Kumar,Private,Southfield,MI,8/21/2024,8/30/2024,9,6460,9430,Improved,Yes
+PID503,79,Female,Fracture,Royal Womens Hospital,Orthopedics,Dr. Patel,Self-Pay,Troy,MI,3/20/2024,3/25/2024,5,10377,12091,Improved,Yes
+PID504,52,Female,Stroke,Detroit Lakes Medical,Emergency,Dr. Johnson,Medicaid,Canton,MI,6/11/2024,6/17/2024,6,10547,14023,Transferred,Yes
+PID505,59,Male,Stroke,Detroit Lakes Medical,Emergency,Dr. Johnson,Private,Detroit,MI,12/5/2024,12/9/2024,4,6733,7640,Improved,No
+PID506,12,Male,Stroke,Detroit Lakes Medical,Cardiology,Dr. Lee,Private,Detroit,MI,2/19/2024,2/27/2024,8,5017,8270,Transferred,No
+PID507,16,Male,Asthma,South Canton Care,Pediatrics,Dr. Kumar,Self-Pay,Ann Arbor,MI,1/1/2024,1/4/2024,3,5584,7897,Improved,No
+PID508,49,Male,Asthma,Michigan Health Center,Orthopedics,Dr. Smith,Self-Pay,Southfield,MI,4/20/2024,4/27/2024,7,8604,11431,Recovered,No
+PID509,15,Male,Pneumonia,Royal Womens Hospital,Emergency,Dr. Patel,Private,Detroit,MI,8/7/2024,8/22/2024,15,8153,10498,Transferred,No
+PID510,33,Male,Migraine,Detroit Lakes Medical,Neurology,Dr. Kumar,Medicaid,Southfield,MI,1/13/2024,1/15/2024,2,8539,12270,Transferred,No
+PID511,51,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Lee,Private,Detroit,MI,6/28/2024,7/3/2024,5,2624,5820,Recovered,Yes
+PID512,23,Male,Migraine,Troy General Hospital,Pediatrics,Dr. Smith,Medicaid,Detroit,MI,4/17/2024,4/23/2024,6,7424,8740,Improved,Yes
+PID513,21,Female,Migraine,Michigan Health Center,Orthopedics,Dr. Patel,Private,Detroit,MI,1/31/2024,2/13/2024,13,8322,12063,Recovered,No
+PID514,65,Female,Infection,South Canton Care,Emergency,Dr. Smith,Self-Pay,Detroit,MI,4/23/2024,5/1/2024,8,11225,13014,Deceased,Yes
+PID515,10,Female,Infection,South Canton Care,Cardiology,Dr. Johnson,Medicaid,Southfield,MI,1/21/2024,2/5/2024,15,4430,8049,Recovered,Yes
+PID516,87,Male,Diabetes,Troy General Hospital,Neurology,Dr. Johnson,Private,Canton,MI,5/13/2024,5/28/2024,15,2668,6242,Recovered,Yes
+PID517,9,Male,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicaid,Ann Arbor,MI,5/3/2024,5/8/2024,5,11114,13096,Transferred,No
+PID518,83,Male,Hypertension,Michigan Health Center,Pediatrics,Dr. Patel,Medicare,Detroit,MI,4/7/2024,4/19/2024,12,7056,8709,Improved,Yes
+PID519,25,Male,Diabetes,Michigan Health Center,Cardiology,Dr. Lee,Self-Pay,Ann Arbor,MI,8/18/2024,8/25/2024,7,8000,9216,Transferred,No
+PID520,76,Male,Pneumonia,Troy General Hospital,Emergency,Dr. Patel,Medicare,Troy,MI,1/21/2024,1/29/2024,8,10911,12948,Improved,Yes
+PID521,16,Male,Pneumonia,Michigan Health Center,Cardiology,Dr. Johnson,Self-Pay,Southfield,MI,2/10/2024,2/15/2024,5,6275,7395,Transferred,Yes
+PID522,15,Female,Heart Failure,Royal Womens Hospital,Pediatrics,Dr. Kumar,Medicare,Canton,MI,6/7/2024,6/15/2024,8,7530,10372,Improved,No
+PID523,14,Male,Migraine,Michigan Health Center,Emergency,Dr. Johnson,Medicare,Detroit,MI,11/28/2024,12/1/2024,3,8629,11794,Improved,Yes
+PID524,34,Female,Pneumonia,Royal Womens Hospital,Pediatrics,Dr. Johnson,Self-Pay,Troy,MI,11/29/2024,12/3/2024,4,7789,9588,Improved,No
+PID525,53,Male,Heart Failure,Troy General Hospital,Emergency,Dr. Lee,Private,Detroit,MI,1/15/2024,1/17/2024,2,7069,7619,Deceased,Yes
+PID526,60,Male,Infection,South Canton Care,Pediatrics,Dr. Patel,Medicare,Canton,MI,4/22/2024,5/7/2024,15,6997,7623,Recovered,Yes
+PID527,42,Female,Pneumonia,Troy General Hospital,Pediatrics,Dr. Smith,Self-Pay,Detroit,MI,2/2/2024,2/14/2024,12,3108,5216,Recovered,No
+PID528,10,Female,Migraine,Michigan Health Center,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,5/17/2024,5/29/2024,12,11167,15041,Deceased,Yes
+PID529,83,Male,Arthritis,Royal Womens Hospital,Pediatrics,Dr. Patel,Medicare,Ann Arbor,MI,8/19/2024,8/25/2024,6,3534,4931,Improved,No
+PID530,76,Female,Fracture,South Canton Care,Orthopedics,Dr. Smith,Private,Detroit,MI,9/22/2024,9/29/2024,7,3288,4641,Improved,Yes
+PID531,84,Male,Hypertension,Detroit Lakes Medical,Neurology,Dr. Kumar,Self-Pay,Detroit,MI,8/25/2024,9/8/2024,14,4454,8187,Transferred,No
+PID532,78,Female,Stroke,Troy General Hospital,Pediatrics,Dr. Lee,Self-Pay,Detroit,MI,5/27/2024,6/5/2024,9,9835,13746,Transferred,No
+PID533,85,Male,Migraine,Royal Womens Hospital,Emergency,Dr. Patel,Private,Canton,MI,7/16/2024,7/31/2024,15,5058,6030,Transferred,No
+PID534,25,Male,Hypertension,Royal Womens Hospital,Neurology,Dr. Lee,Medicaid,Detroit,MI,7/23/2024,7/30/2024,7,9611,10643,Improved,Yes
+PID535,42,Female,Fracture,Detroit Lakes Medical,Cardiology,Dr. Kumar,Medicare,Southfield,MI,4/26/2024,4/27/2024,1,9996,11341,Transferred,Yes
+PID536,56,Male,Arthritis,South Canton Care,Emergency,Dr. Johnson,Medicare,Canton,MI,12/3/2024,12/6/2024,3,2150,4367,Deceased,No
+PID537,9,Male,Diabetes,Royal Womens Hospital,Emergency,Dr. Johnson,Private,Canton,MI,9/1/2024,9/11/2024,10,10378,12483,Transferred,No
+PID538,79,Male,Pneumonia,Troy General Hospital,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,10/5/2024,10/7/2024,2,9954,12815,Recovered,No
+PID539,55,Female,Diabetes,Royal Womens Hospital,Pediatrics,Dr. Kumar,Private,Detroit,MI,1/6/2024,1/13/2024,7,4498,8185,Improved,Yes
+PID540,90,Female,Stroke,Michigan Health Center,Emergency,Dr. Johnson,Self-Pay,Ann Arbor,MI,8/21/2024,8/22/2024,1,9540,11448,Recovered,No
+PID541,11,Male,Asthma,Troy General Hospital,Orthopedics,Dr. Patel,Medicaid,Ann Arbor,MI,9/1/2024,9/14/2024,13,5094,5948,Deceased,Yes
+PID542,48,Female,Asthma,Royal Womens Hospital,Orthopedics,Dr. Johnson,Private,Southfield,MI,7/1/2024,7/11/2024,10,6411,7049,Improved,Yes
+PID543,26,Male,Infection,Michigan Health Center,Orthopedics,Dr. Lee,Self-Pay,Southfield,MI,4/11/2024,4/19/2024,8,11612,12591,Improved,Yes
+PID544,66,Female,Heart Failure,South Canton Care,Neurology,Dr. Kumar,Medicaid,Detroit,MI,2/20/2024,2/29/2024,9,11649,15492,Transferred,No
+PID545,13,Female,Pneumonia,Detroit Lakes Medical,Cardiology,Dr. Lee,Private,Detroit,MI,9/17/2024,9/25/2024,8,2372,6021,Improved,Yes
+PID546,59,Male,Arthritis,Detroit Lakes Medical,Emergency,Dr. Lee,Self-Pay,Troy,MI,5/5/2024,5/18/2024,13,9194,10691,Recovered,No
+PID547,42,Male,Diabetes,Royal Womens Hospital,Pediatrics,Dr. Patel,Private,Detroit,MI,2/22/2024,2/26/2024,4,5986,8434,Transferred,Yes
+PID548,28,Male,Infection,Troy General Hospital,Orthopedics,Dr. Smith,Private,Canton,MI,3/19/2024,3/20/2024,1,3491,5605,Deceased,Yes
+PID549,24,Female,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Kumar,Medicare,Ann Arbor,MI,10/7/2024,10/18/2024,11,4532,6964,Deceased,Yes
+PID550,4,Female,Diabetes,Royal Womens Hospital,Emergency,Dr. Johnson,Private,Detroit,MI,5/6/2024,5/15/2024,9,7987,11273,Improved,Yes
+PID551,87,Male,Diabetes,Detroit Lakes Medical,Neurology,Dr. Smith,Self-Pay,Southfield,MI,5/5/2024,5/8/2024,3,3478,5388,Deceased,No
+PID552,86,Female,Hypertension,Troy General Hospital,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,9/22/2024,9/25/2024,3,4865,5446,Improved,Yes
+PID553,53,Female,Infection,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Ann Arbor,MI,2/25/2024,3/4/2024,8,9996,12715,Deceased,No
+PID554,37,Male,Heart Failure,South Canton Care,Emergency,Dr. Kumar,Self-Pay,Ann Arbor,MI,8/24/2024,9/3/2024,10,9973,12562,Deceased,No
+PID555,43,Female,Diabetes,Troy General Hospital,Pediatrics,Dr. Johnson,Medicaid,Southfield,MI,5/28/2024,6/8/2024,11,11775,14739,Improved,No
+PID556,37,Female,Stroke,Troy General Hospital,Neurology,Dr. Lee,Medicare,Southfield,MI,9/10/2024,9/17/2024,7,8469,11746,Recovered,No
+PID557,13,Male,Migraine,South Canton Care,Pediatrics,Dr. Patel,Medicare,Ann Arbor,MI,1/22/2024,2/3/2024,12,4896,6115,Deceased,No
+PID558,77,Female,Fracture,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicare,Canton,MI,3/25/2024,4/5/2024,11,9021,11118,Recovered,Yes
+PID559,86,Male,Pneumonia,Michigan Health Center,Pediatrics,Dr. Kumar,Self-Pay,Troy,MI,5/6/2024,5/12/2024,6,6151,9386,Deceased,Yes
+PID560,21,Female,Fracture,South Canton Care,Pediatrics,Dr. Smith,Self-Pay,Ann Arbor,MI,11/9/2024,11/24/2024,15,7838,10755,Improved,No
+PID561,48,Female,Heart Failure,Royal Womens Hospital,Pediatrics,Dr. Johnson,Medicaid,Canton,MI,5/21/2024,5/23/2024,2,10304,11220,Transferred,Yes
+PID562,70,Male,Asthma,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Private,Canton,MI,12/26/2024,1/3/2025,8,7242,8217,Improved,No
+PID563,14,Female,Stroke,Troy General Hospital,Orthopedics,Dr. Lee,Self-Pay,Canton,MI,2/1/2024,2/10/2024,9,7495,9509,Recovered,Yes
+PID564,10,Female,Diabetes,Michigan Health Center,Cardiology,Dr. Lee,Medicare,Southfield,MI,2/17/2024,2/25/2024,8,2937,6511,Transferred,No
+PID565,77,Male,Arthritis,Detroit Lakes Medical,Pediatrics,Dr. Smith,Medicare,Detroit,MI,1/23/2024,2/7/2024,15,5345,6682,Deceased,No
+PID566,32,Female,Hypertension,Michigan Health Center,Neurology,Dr. Kumar,Self-Pay,Canton,MI,4/19/2024,4/20/2024,1,9670,12340,Improved,Yes
+PID567,81,Male,Asthma,Detroit Lakes Medical,Cardiology,Dr. Johnson,Private,Southfield,MI,1/8/2024,1/14/2024,6,3247,6925,Deceased,Yes
+PID568,87,Male,Stroke,Troy General Hospital,Cardiology,Dr. Smith,Medicare,Ann Arbor,MI,11/8/2024,11/11/2024,3,5709,6495,Deceased,Yes
+PID569,70,Male,Heart Failure,Royal Womens Hospital,Neurology,Dr. Johnson,Medicaid,Troy,MI,7/4/2024,7/5/2024,1,11223,14275,Recovered,Yes
+PID570,82,Female,Asthma,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Self-Pay,Southfield,MI,12/7/2024,12/16/2024,9,8042,11181,Deceased,No
+PID571,34,Female,Asthma,Troy General Hospital,Emergency,Dr. Patel,Medicaid,Ann Arbor,MI,7/28/2024,8/12/2024,15,8029,9828,Recovered,Yes
+PID572,73,Male,Infection,Troy General Hospital,Emergency,Dr. Lee,Private,Southfield,MI,6/1/2024,6/6/2024,5,5080,6611,Improved,No
+PID573,89,Male,Diabetes,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Medicaid,Troy,MI,10/8/2024,10/15/2024,7,8481,10169,Deceased,No
+PID574,79,Male,Hypertension,South Canton Care,Emergency,Dr. Smith,Medicaid,Ann Arbor,MI,3/20/2024,3/22/2024,2,6786,7763,Recovered,Yes
+PID575,67,Female,Infection,Royal Womens Hospital,Emergency,Dr. Lee,Medicaid,Detroit,MI,3/16/2024,3/23/2024,7,7881,10471,Deceased,Yes
+PID576,25,Male,Pneumonia,Michigan Health Center,Orthopedics,Dr. Kumar,Self-Pay,Canton,MI,10/5/2024,10/6/2024,1,9037,12206,Deceased,No
+PID577,56,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Lee,Self-Pay,Canton,MI,11/9/2024,11/12/2024,3,11547,13068,Recovered,No
+PID578,84,Male,Fracture,South Canton Care,Neurology,Dr. Smith,Medicaid,Southfield,MI,5/2/2024,5/13/2024,11,4808,7222,Deceased,Yes
+PID579,52,Female,Arthritis,Michigan Health Center,Cardiology,Dr. Smith,Medicare,Ann Arbor,MI,6/21/2024,6/30/2024,9,5961,7315,Improved,No
+PID580,16,Male,Pneumonia,Michigan Health Center,Cardiology,Dr. Kumar,Medicaid,Ann Arbor,MI,1/11/2024,1/15/2024,4,2879,5856,Transferred,Yes
+PID581,67,Female,Heart Failure,Michigan Health Center,Emergency,Dr. Lee,Private,Southfield,MI,5/31/2024,6/13/2024,13,7732,8889,Transferred,No
+PID582,55,Male,Pneumonia,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Medicaid,Ann Arbor,MI,11/1/2024,11/8/2024,7,4855,6492,Transferred,No
+PID583,1,Female,Infection,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicaid,Canton,MI,10/15/2024,10/17/2024,2,5302,9170,Improved,Yes
+PID584,84,Male,Diabetes,South Canton Care,Orthopedics,Dr. Smith,Self-Pay,Ann Arbor,MI,7/27/2024,8/3/2024,7,7771,10546,Improved,Yes
+PID585,31,Male,Infection,South Canton Care,Emergency,Dr. Kumar,Medicaid,Canton,MI,3/22/2024,3/25/2024,3,4563,6388,Transferred,No
+PID586,55,Male,Migraine,South Canton Care,Pediatrics,Dr. Johnson,Medicare,Ann Arbor,MI,8/3/2024,8/8/2024,5,6265,10265,Recovered,No
+PID587,23,Male,Infection,Troy General Hospital,Emergency,Dr. Johnson,Private,Ann Arbor,MI,11/12/2024,11/13/2024,1,8043,11238,Deceased,No
+PID588,15,Male,Hypertension,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicare,Ann Arbor,MI,8/13/2024,8/25/2024,12,10843,12992,Transferred,No
+PID589,42,Male,Hypertension,Michigan Health Center,Emergency,Dr. Patel,Medicare,Troy,MI,5/27/2024,6/4/2024,8,4220,7469,Transferred,No
+PID590,7,Female,Stroke,Detroit Lakes Medical,Orthopedics,Dr. Kumar,Medicare,Detroit,MI,2/14/2024,2/25/2024,11,9505,11288,Deceased,Yes
+PID591,24,Female,Heart Failure,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicare,Canton,MI,8/29/2024,8/31/2024,2,3253,6511,Recovered,No
+PID592,31,Male,Heart Failure,Royal Womens Hospital,Cardiology,Dr. Patel,Medicare,Southfield,MI,8/1/2024,8/2/2024,1,7150,9656,Deceased,Yes
+PID593,38,Female,Arthritis,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicaid,Southfield,MI,5/13/2024,5/28/2024,15,5568,9559,Recovered,No
+PID594,67,Male,Hypertension,Troy General Hospital,Emergency,Dr. Kumar,Medicaid,Troy,MI,5/18/2024,5/20/2024,2,6854,7881,Transferred,No
+PID595,27,Female,Stroke,Michigan Health Center,Cardiology,Dr. Smith,Self-Pay,Troy,MI,4/15/2024,4/30/2024,15,4403,7839,Transferred,Yes
+PID596,31,Male,Asthma,South Canton Care,Cardiology,Dr. Lee,Private,Ann Arbor,MI,1/26/2024,1/29/2024,3,9903,11743,Deceased,Yes
+PID597,58,Male,Fracture,Royal Womens Hospital,Emergency,Dr. Kumar,Self-Pay,Southfield,MI,6/12/2024,6/27/2024,15,2350,6041,Transferred,No
+PID598,17,Female,Migraine,Troy General Hospital,Neurology,Dr. Lee,Self-Pay,Southfield,MI,7/5/2024,7/12/2024,7,5252,7626,Improved,No
+PID599,61,Female,Infection,Detroit Lakes Medical,Emergency,Dr. Lee,Medicaid,Ann Arbor,MI,12/8/2024,12/21/2024,13,8535,11333,Improved,No
+PID600,15,Female,Heart Failure,Michigan Health Center,Neurology,Dr. Lee,Medicaid,Ann Arbor,MI,5/16/2024,5/29/2024,13,5792,8587,Improved,Yes
+PID601,44,Female,Hypertension,Detroit Lakes Medical,Neurology,Dr. Lee,Medicaid,Detroit,MI,2/28/2024,3/2/2024,3,10151,12662,Recovered,Yes
+PID602,1,Male,Pneumonia,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicaid,Ann Arbor,MI,8/31/2024,9/8/2024,8,4478,5525,Improved,No
+PID603,74,Male,Fracture,Royal Womens Hospital,Emergency,Dr. Patel,Self-Pay,Ann Arbor,MI,3/6/2024,3/16/2024,10,5360,8289,Improved,No
+PID604,20,Female,Asthma,Royal Womens Hospital,Emergency,Dr. Lee,Medicaid,Canton,MI,12/8/2024,12/22/2024,14,9362,12045,Recovered,No
+PID605,11,Male,Stroke,Royal Womens Hospital,Cardiology,Dr. Kumar,Private,Detroit,MI,3/31/2024,4/2/2024,2,7449,10238,Transferred,Yes
+PID606,42,Male,Diabetes,Troy General Hospital,Neurology,Dr. Lee,Medicare,Southfield,MI,3/2/2024,3/7/2024,5,3244,4359,Improved,No
+PID607,50,Female,Hypertension,Royal Womens Hospital,Neurology,Dr. Smith,Self-Pay,Ann Arbor,MI,3/28/2024,4/5/2024,8,7100,10689,Transferred,Yes
+PID608,5,Male,Hypertension,Troy General Hospital,Orthopedics,Dr. Smith,Medicare,Southfield,MI,6/7/2024,6/11/2024,4,10131,12537,Improved,Yes
+PID609,47,Male,Pneumonia,South Canton Care,Orthopedics,Dr. Patel,Self-Pay,Detroit,MI,2/24/2024,3/3/2024,8,6251,8863,Recovered,Yes
+PID610,37,Male,Arthritis,Michigan Health Center,Cardiology,Dr. Kumar,Private,Southfield,MI,10/13/2024,10/17/2024,4,9152,10625,Deceased,No
+PID611,30,Female,Asthma,Michigan Health Center,Cardiology,Dr. Kumar,Medicaid,Troy,MI,12/17/2024,12/29/2024,12,3825,5850,Transferred,Yes
+PID612,58,Female,Stroke,Michigan Health Center,Orthopedics,Dr. Lee,Self-Pay,Canton,MI,12/24/2024,12/30/2024,6,10833,14630,Transferred,No
+PID613,82,Female,Migraine,South Canton Care,Orthopedics,Dr. Smith,Medicare,Troy,MI,6/3/2024,6/7/2024,4,5962,7122,Transferred,Yes
+PID614,27,Male,Infection,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Private,Troy,MI,5/9/2024,5/18/2024,9,7463,10870,Transferred,No
+PID615,63,Female,Diabetes,Michigan Health Center,Pediatrics,Dr. Lee,Private,Troy,MI,4/6/2024,4/14/2024,8,6990,8792,Improved,Yes
+PID616,85,Male,Asthma,Royal Womens Hospital,Neurology,Dr. Patel,Self-Pay,Southfield,MI,4/18/2024,5/1/2024,13,5780,6949,Deceased,Yes
+PID617,18,Male,Heart Failure,Michigan Health Center,Emergency,Dr. Smith,Medicare,Ann Arbor,MI,5/5/2024,5/7/2024,2,6441,9979,Improved,Yes
+PID618,81,Male,Heart Failure,Detroit Lakes Medical,Orthopedics,Dr. Smith,Medicare,Troy,MI,6/10/2024,6/14/2024,4,10366,14144,Deceased,Yes
+PID619,21,Male,Heart Failure,South Canton Care,Pediatrics,Dr. Johnson,Private,Southfield,MI,2/25/2024,3/2/2024,6,2522,4592,Improved,No
+PID620,16,Female,Migraine,South Canton Care,Cardiology,Dr. Patel,Medicaid,Detroit,MI,1/3/2024,1/11/2024,8,7637,10401,Transferred,No
+PID621,66,Female,Stroke,Troy General Hospital,Emergency,Dr. Johnson,Self-Pay,Southfield,MI,9/22/2024,9/24/2024,2,9722,13632,Improved,Yes
+PID622,42,Male,Infection,South Canton Care,Orthopedics,Dr. Johnson,Private,Ann Arbor,MI,10/16/2024,10/18/2024,2,9323,10892,Deceased,Yes
+PID623,44,Male,Heart Failure,South Canton Care,Orthopedics,Dr. Johnson,Self-Pay,Detroit,MI,6/19/2024,6/24/2024,5,2853,4665,Deceased,Yes
+PID624,55,Male,Asthma,Troy General Hospital,Pediatrics,Dr. Johnson,Medicare,Canton,MI,2/22/2024,2/24/2024,2,11953,12625,Deceased,Yes
+PID625,81,Male,Stroke,Detroit Lakes Medical,Orthopedics,Dr. Smith,Medicaid,Troy,MI,4/2/2024,4/6/2024,4,11273,14790,Improved,Yes
+PID626,33,Female,Fracture,South Canton Care,Pediatrics,Dr. Patel,Medicaid,Canton,MI,6/21/2024,6/27/2024,6,2868,6814,Recovered,Yes
+PID627,14,Male,Pneumonia,Troy General Hospital,Pediatrics,Dr. Kumar,Medicare,Troy,MI,6/5/2024,6/18/2024,13,10576,13476,Recovered,No
+PID628,59,Female,Stroke,Michigan Health Center,Cardiology,Dr. Kumar,Medicaid,Detroit,MI,8/10/2024,8/21/2024,11,2993,4478,Deceased,No
+PID629,73,Female,Pneumonia,Troy General Hospital,Pediatrics,Dr. Lee,Medicare,Ann Arbor,MI,7/2/2024,7/11/2024,9,3587,6585,Improved,No
+PID630,75,Male,Asthma,Detroit Lakes Medical,Orthopedics,Dr. Lee,Private,Southfield,MI,8/27/2024,9/4/2024,8,2331,6191,Recovered,No
+PID631,4,Male,Migraine,South Canton Care,Emergency,Dr. Kumar,Self-Pay,Ann Arbor,MI,11/27/2024,11/30/2024,3,4463,7259,Recovered,Yes
+PID632,1,Male,Hypertension,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Private,Southfield,MI,9/23/2024,10/2/2024,9,10095,13620,Deceased,Yes
+PID633,8,Male,Infection,Michigan Health Center,Orthopedics,Dr. Kumar,Medicare,Ann Arbor,MI,6/3/2024,6/16/2024,13,9156,12329,Recovered,No
+PID634,14,Male,Migraine,Royal Womens Hospital,Pediatrics,Dr. Patel,Medicare,Troy,MI,7/7/2024,7/13/2024,6,3765,6482,Transferred,No
+PID635,71,Female,Stroke,Troy General Hospital,Neurology,Dr. Kumar,Private,Southfield,MI,2/24/2024,2/29/2024,5,5817,9514,Recovered,No
+PID636,61,Female,Stroke,Detroit Lakes Medical,Cardiology,Dr. Lee,Medicaid,Canton,MI,12/16/2024,12/28/2024,12,2319,3344,Improved,No
+PID637,16,Male,Stroke,Royal Womens Hospital,Neurology,Dr. Smith,Self-Pay,Troy,MI,12/15/2024,12/27/2024,12,8164,8771,Recovered,Yes
+PID638,17,Female,Fracture,Royal Womens Hospital,Cardiology,Dr. Kumar,Private,Troy,MI,12/23/2024,1/2/2025,10,7008,7694,Recovered,No
+PID639,31,Male,Pneumonia,Troy General Hospital,Cardiology,Dr. Johnson,Medicare,Troy,MI,4/6/2024,4/8/2024,2,4581,7705,Deceased,No
+PID640,85,Female,Infection,South Canton Care,Cardiology,Dr. Johnson,Private,Ann Arbor,MI,1/3/2024,1/15/2024,12,8773,12040,Deceased,Yes
+PID641,55,Female,Asthma,Michigan Health Center,Pediatrics,Dr. Lee,Medicare,Canton,MI,8/15/2024,8/27/2024,12,8482,11148,Improved,No
+PID642,29,Male,Fracture,Troy General Hospital,Cardiology,Dr. Johnson,Self-Pay,Ann Arbor,MI,9/11/2024,9/18/2024,7,3303,6516,Deceased,Yes
+PID643,42,Female,Diabetes,Michigan Health Center,Cardiology,Dr. Kumar,Medicaid,Troy,MI,5/1/2024,5/6/2024,5,7413,10840,Recovered,No
+PID644,20,Female,Fracture,Troy General Hospital,Orthopedics,Dr. Patel,Private,Detroit,MI,8/2/2024,8/14/2024,12,7030,7670,Recovered,No
+PID645,87,Male,Migraine,South Canton Care,Orthopedics,Dr. Lee,Self-Pay,Southfield,MI,5/3/2024,5/10/2024,7,5381,5966,Deceased,Yes
+PID646,53,Male,Heart Failure,Detroit Lakes Medical,Emergency,Dr. Johnson,Private,Troy,MI,3/26/2024,4/6/2024,11,4734,6943,Recovered,Yes
+PID647,24,Male,Pneumonia,Royal Womens Hospital,Neurology,Dr. Johnson,Private,Canton,MI,9/27/2024,10/11/2024,14,10851,12652,Improved,Yes
+PID648,59,Female,Hypertension,Detroit Lakes Medical,Cardiology,Dr. Johnson,Medicaid,Canton,MI,4/4/2024,4/19/2024,15,3268,5402,Improved,Yes
+PID649,36,Female,Stroke,Royal Womens Hospital,Emergency,Dr. Patel,Medicaid,Canton,MI,5/21/2024,5/29/2024,8,10195,12805,Recovered,Yes
+PID650,74,Female,Heart Failure,Troy General Hospital,Pediatrics,Dr. Kumar,Medicaid,Detroit,MI,1/30/2024,2/9/2024,10,11062,13115,Recovered,No
+PID651,70,Male,Infection,Troy General Hospital,Emergency,Dr. Johnson,Medicaid,Southfield,MI,10/1/2024,10/4/2024,3,3775,4365,Recovered,Yes
+PID652,73,Male,Heart Failure,Michigan Health Center,Cardiology,Dr. Lee,Private,Canton,MI,5/26/2024,6/9/2024,14,11614,14992,Recovered,Yes
+PID653,12,Female,Infection,Royal Womens Hospital,Pediatrics,Dr. Johnson,Private,Troy,MI,11/27/2024,12/1/2024,4,9901,11338,Transferred,No
+PID654,77,Male,Arthritis,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicare,Detroit,MI,11/24/2024,11/26/2024,2,7399,10832,Deceased,Yes
+PID655,18,Female,Asthma,South Canton Care,Neurology,Dr. Kumar,Self-Pay,Detroit,MI,6/22/2024,7/5/2024,13,6674,10430,Transferred,No
+PID656,58,Female,Pneumonia,Royal Womens Hospital,Neurology,Dr. Kumar,Medicare,Detroit,MI,2/11/2024,2/16/2024,5,5782,8982,Improved,No
+PID657,58,Male,Stroke,Michigan Health Center,Emergency,Dr. Johnson,Private,Detroit,MI,12/25/2024,1/5/2025,11,10209,14037,Improved,Yes
+PID658,66,Male,Diabetes,Royal Womens Hospital,Orthopedics,Dr. Johnson,Medicare,Troy,MI,4/27/2024,4/29/2024,2,3531,6296,Recovered,No
+PID659,51,Female,Pneumonia,Detroit Lakes Medical,Cardiology,Dr. Smith,Medicare,Ann Arbor,MI,7/20/2024,8/3/2024,14,9540,11999,Transferred,No
+PID660,43,Female,Diabetes,Michigan Health Center,Cardiology,Dr. Patel,Medicaid,Troy,MI,5/22/2024,5/29/2024,7,7236,9038,Improved,Yes
+PID661,50,Female,Diabetes,Detroit Lakes Medical,Neurology,Dr. Lee,Self-Pay,Detroit,MI,10/28/2024,11/9/2024,12,9353,10240,Improved,Yes
+PID662,50,Female,Diabetes,South Canton Care,Neurology,Dr. Johnson,Medicare,Southfield,MI,12/18/2024,12/25/2024,7,6008,7245,Improved,No
+PID663,81,Female,Asthma,South Canton Care,Pediatrics,Dr. Kumar,Private,Canton,MI,8/17/2024,8/19/2024,2,11321,15045,Improved,Yes
+PID664,58,Male,Pneumonia,Royal Womens Hospital,Orthopedics,Dr. Patel,Self-Pay,Ann Arbor,MI,6/26/2024,7/4/2024,8,11275,13734,Improved,Yes
+PID665,76,Female,Asthma,Royal Womens Hospital,Emergency,Dr. Kumar,Private,Southfield,MI,11/5/2024,11/6/2024,1,5355,7600,Deceased,Yes
+PID666,73,Female,Stroke,South Canton Care,Cardiology,Dr. Kumar,Private,Southfield,MI,5/14/2024,5/26/2024,12,2745,4004,Transferred,Yes
+PID667,16,Male,Diabetes,Troy General Hospital,Emergency,Dr. Kumar,Self-Pay,Troy,MI,12/27/2024,1/6/2025,10,2628,4502,Deceased,Yes
+PID668,16,Male,Fracture,South Canton Care,Cardiology,Dr. Smith,Private,Ann Arbor,MI,2/24/2024,3/10/2024,15,8704,11052,Improved,Yes
+PID669,46,Male,Migraine,South Canton Care,Orthopedics,Dr. Patel,Private,Detroit,MI,1/18/2024,1/23/2024,5,9392,13383,Deceased,Yes
+PID670,7,Female,Migraine,Michigan Health Center,Pediatrics,Dr. Smith,Private,Canton,MI,1/14/2024,1/28/2024,14,3179,7013,Deceased,No
+PID671,7,Male,Stroke,Detroit Lakes Medical,Pediatrics,Dr. Patel,Self-Pay,Troy,MI,10/12/2024,10/19/2024,7,3463,5297,Recovered,Yes
+PID672,50,Female,Hypertension,Royal Womens Hospital,Emergency,Dr. Smith,Medicare,Detroit,MI,12/28/2024,1/8/2025,11,10958,11459,Transferred,Yes
+PID673,32,Male,Migraine,South Canton Care,Emergency,Dr. Smith,Medicare,Southfield,MI,10/22/2024,10/24/2024,2,7041,10721,Deceased,No
+PID674,37,Female,Migraine,Michigan Health Center,Pediatrics,Dr. Lee,Self-Pay,Troy,MI,1/10/2024,1/11/2024,1,7663,10900,Recovered,No
+PID675,60,Male,Heart Failure,Royal Womens Hospital,Pediatrics,Dr. Smith,Private,Canton,MI,1/16/2024,1/27/2024,11,7316,10405,Recovered,Yes
+PID676,54,Male,Diabetes,Michigan Health Center,Neurology,Dr. Smith,Medicare,Southfield,MI,7/22/2024,8/2/2024,11,2659,6387,Transferred,Yes
+PID677,23,Female,Pneumonia,Detroit Lakes Medical,Orthopedics,Dr. Smith,Private,Troy,MI,6/17/2024,6/23/2024,6,8311,10213,Deceased,No
+PID678,25,Male,Pneumonia,Royal Womens Hospital,Neurology,Dr. Lee,Medicaid,Southfield,MI,2/13/2024,2/25/2024,12,5110,8207,Recovered,Yes
+PID679,8,Male,Hypertension,South Canton Care,Pediatrics,Dr. Kumar,Private,Canton,MI,3/6/2024,3/14/2024,8,2277,5249,Deceased,Yes
+PID680,75,Female,Infection,Royal Womens Hospital,Emergency,Dr. Lee,Medicaid,Ann Arbor,MI,2/8/2024,2/21/2024,13,8115,10420,Improved,Yes
+PID681,24,Female,Asthma,Michigan Health Center,Neurology,Dr. Johnson,Medicare,Ann Arbor,MI,5/23/2024,5/27/2024,4,7943,9340,Transferred,No
+PID682,52,Male,Infection,South Canton Care,Orthopedics,Dr. Johnson,Private,Troy,MI,11/9/2024,11/16/2024,7,5186,8289,Deceased,Yes
+PID683,50,Female,Infection,Troy General Hospital,Pediatrics,Dr. Patel,Private,Southfield,MI,7/16/2024,7/18/2024,2,10380,13561,Transferred,No
+PID684,11,Female,Infection,South Canton Care,Cardiology,Dr. Patel,Medicare,Detroit,MI,2/22/2024,2/25/2024,3,4073,6690,Improved,No
+PID685,60,Male,Diabetes,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Private,Canton,MI,2/28/2024,3/6/2024,7,3091,6900,Deceased,No
+PID686,50,Male,Stroke,Michigan Health Center,Neurology,Dr. Patel,Private,Troy,MI,3/18/2024,3/29/2024,11,2993,3735,Transferred,Yes
+PID687,46,Female,Diabetes,Troy General Hospital,Orthopedics,Dr. Patel,Private,Detroit,MI,4/16/2024,4/26/2024,10,8931,12309,Recovered,Yes
+PID688,83,Male,Hypertension,Detroit Lakes Medical,Neurology,Dr. Kumar,Private,Troy,MI,6/27/2024,7/3/2024,6,2281,3151,Deceased,No
+PID689,66,Male,Heart Failure,Michigan Health Center,Pediatrics,Dr. Kumar,Medicare,Ann Arbor,MI,7/26/2024,8/2/2024,7,5181,7202,Recovered,Yes
+PID690,60,Male,Stroke,Troy General Hospital,Neurology,Dr. Kumar,Private,Troy,MI,6/17/2024,6/21/2024,4,8942,10633,Deceased,No
+PID691,89,Female,Asthma,Detroit Lakes Medical,Emergency,Dr. Patel,Private,Southfield,MI,12/20/2024,1/2/2025,13,8417,11236,Transferred,Yes
+PID692,27,Male,Diabetes,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicare,Detroit,MI,4/13/2024,4/27/2024,14,10722,14149,Transferred,Yes
+PID693,4,Male,Asthma,Michigan Health Center,Orthopedics,Dr. Lee,Medicaid,Ann Arbor,MI,3/21/2024,3/30/2024,9,11680,14074,Recovered,Yes
+PID694,44,Female,Infection,Royal Womens Hospital,Emergency,Dr. Johnson,Medicaid,Southfield,MI,12/25/2024,1/4/2025,10,2651,6011,Deceased,No
+PID695,82,Female,Diabetes,South Canton Care,Orthopedics,Dr. Kumar,Self-Pay,Southfield,MI,2/15/2024,2/18/2024,3,8240,11010,Improved,No
+PID696,20,Male,Migraine,Royal Womens Hospital,Emergency,Dr. Kumar,Private,Ann Arbor,MI,4/20/2024,4/26/2024,6,9678,10400,Deceased,Yes
+PID697,87,Male,Heart Failure,South Canton Care,Orthopedics,Dr. Johnson,Self-Pay,Canton,MI,10/11/2024,10/23/2024,12,4617,6369,Recovered,No
+PID698,25,Female,Arthritis,Troy General Hospital,Neurology,Dr. Johnson,Private,Troy,MI,1/20/2024,1/26/2024,6,2088,5210,Transferred,Yes
+PID699,74,Female,Migraine,Detroit Lakes Medical,Orthopedics,Dr. Smith,Self-Pay,Ann Arbor,MI,12/3/2024,12/5/2024,2,6676,9721,Recovered,Yes
+PID700,20,Female,Diabetes,Royal Womens Hospital,Pediatrics,Dr. Kumar,Medicaid,Ann Arbor,MI,2/28/2024,3/11/2024,12,6385,9627,Recovered,Yes
+PID701,49,Female,Arthritis,South Canton Care,Pediatrics,Dr. Lee,Medicare,Canton,MI,7/3/2024,7/5/2024,2,6841,10706,Improved,No
+PID702,14,Female,Fracture,South Canton Care,Cardiology,Dr. Patel,Medicare,Southfield,MI,7/8/2024,7/11/2024,3,10767,14111,Recovered,Yes
+PID703,39,Female,Fracture,Troy General Hospital,Cardiology,Dr. Lee,Private,Detroit,MI,11/26/2024,12/8/2024,12,11184,12215,Transferred,No
+PID704,80,Male,Asthma,Detroit Lakes Medical,Emergency,Dr. Patel,Private,Troy,MI,4/29/2024,5/4/2024,5,9981,13024,Deceased,Yes
+PID705,35,Male,Migraine,Detroit Lakes Medical,Pediatrics,Dr. Lee,Medicaid,Detroit,MI,8/9/2024,8/13/2024,4,4094,8083,Improved,Yes
+PID706,60,Female,Fracture,Troy General Hospital,Cardiology,Dr. Patel,Self-Pay,Ann Arbor,MI,1/3/2024,1/6/2024,3,4595,5599,Improved,No
+PID707,54,Male,Infection,Troy General Hospital,Pediatrics,Dr. Smith,Self-Pay,Canton,MI,4/23/2024,4/24/2024,1,11546,15003,Transferred,Yes
+PID708,26,Male,Diabetes,Troy General Hospital,Cardiology,Dr. Kumar,Medicaid,Troy,MI,11/23/2024,12/8/2024,15,8932,12857,Improved,Yes
+PID709,11,Female,Asthma,Troy General Hospital,Orthopedics,Dr. Kumar,Medicare,Detroit,MI,10/4/2024,10/10/2024,6,4748,6201,Improved,No
+PID710,2,Female,Infection,South Canton Care,Pediatrics,Dr. Johnson,Medicare,Troy,MI,12/10/2024,12/16/2024,6,8405,12137,Transferred,Yes
+PID711,12,Female,Hypertension,Troy General Hospital,Emergency,Dr. Patel,Self-Pay,Ann Arbor,MI,8/29/2024,9/10/2024,12,7205,9773,Deceased,No
+PID712,51,Female,Infection,Troy General Hospital,Emergency,Dr. Patel,Private,Troy,MI,10/19/2024,10/27/2024,8,9201,10039,Recovered,Yes
+PID713,29,Male,Migraine,South Canton Care,Pediatrics,Dr. Smith,Medicaid,Troy,MI,11/9/2024,11/24/2024,15,9727,13278,Deceased,Yes
+PID714,77,Male,Arthritis,South Canton Care,Emergency,Dr. Patel,Medicare,Detroit,MI,5/29/2024,6/10/2024,12,2318,5374,Recovered,Yes
+PID715,31,Male,Asthma,Royal Womens Hospital,Neurology,Dr. Kumar,Medicare,Ann Arbor,MI,10/10/2024,10/22/2024,12,11451,13353,Transferred,Yes
+PID716,50,Female,Infection,Detroit Lakes Medical,Neurology,Dr. Johnson,Self-Pay,Canton,MI,7/21/2024,7/29/2024,8,7572,11408,Improved,No
+PID717,87,Male,Diabetes,Royal Womens Hospital,Emergency,Dr. Johnson,Self-Pay,Canton,MI,2/21/2024,2/22/2024,1,3957,5460,Deceased,No
+PID718,70,Female,Hypertension,Royal Womens Hospital,Emergency,Dr. Johnson,Self-Pay,Ann Arbor,MI,12/23/2024,12/27/2024,4,2409,5180,Improved,No
+PID719,47,Male,Asthma,South Canton Care,Pediatrics,Dr. Johnson,Private,Canton,MI,12/3/2024,12/7/2024,4,2067,4677,Recovered,Yes
+PID720,19,Female,Diabetes,Michigan Health Center,Orthopedics,Dr. Kumar,Medicare,Southfield,MI,4/7/2024,4/13/2024,6,9216,10651,Deceased,Yes
+PID721,77,Female,Diabetes,Detroit Lakes Medical,Emergency,Dr. Patel,Self-Pay,Canton,MI,4/12/2024,4/14/2024,2,2003,5763,Improved,No
+PID722,17,Female,Stroke,Michigan Health Center,Orthopedics,Dr. Kumar,Medicare,Ann Arbor,MI,10/14/2024,10/24/2024,10,11737,12907,Transferred,No
+PID723,51,Female,Arthritis,Royal Womens Hospital,Orthopedics,Dr. Patel,Medicaid,Detroit,MI,3/24/2024,4/3/2024,10,2397,3698,Recovered,No
+PID724,26,Female,Diabetes,Detroit Lakes Medical,Orthopedics,Dr. Kumar,Medicare,Ann Arbor,MI,6/13/2024,6/25/2024,12,9686,10597,Recovered,No
+PID725,34,Female,Infection,Troy General Hospital,Pediatrics,Dr. Patel,Medicaid,Detroit,MI,8/19/2024,8/29/2024,10,9430,10578,Deceased,Yes
+PID726,29,Male,Arthritis,Michigan Health Center,Pediatrics,Dr. Johnson,Medicaid,Troy,MI,12/27/2024,1/6/2025,10,10950,14800,Transferred,No
+PID727,68,Female,Diabetes,Michigan Health Center,Orthopedics,Dr. Lee,Self-Pay,Ann Arbor,MI,9/10/2024,9/21/2024,11,3894,4638,Transferred,Yes
+PID728,41,Male,Heart Failure,South Canton Care,Orthopedics,Dr. Kumar,Medicaid,Southfield,MI,9/27/2024,9/30/2024,3,3927,4521,Transferred,Yes
+PID729,42,Male,Arthritis,Troy General Hospital,Pediatrics,Dr. Johnson,Private,Ann Arbor,MI,1/22/2024,2/6/2024,15,9234,11853,Deceased,Yes
+PID730,83,Female,Asthma,Royal Womens Hospital,Orthopedics,Dr. Smith,Private,Southfield,MI,4/10/2024,4/25/2024,15,9865,11460,Improved,No
+PID731,63,Male,Heart Failure,Michigan Health Center,Neurology,Dr. Lee,Medicaid,Southfield,MI,5/17/2024,5/25/2024,8,4772,7194,Deceased,Yes
+PID732,56,Female,Migraine,Troy General Hospital,Pediatrics,Dr. Patel,Medicare,Detroit,MI,9/19/2024,9/22/2024,3,2075,5576,Transferred,No
+PID733,36,Female,Hypertension,Royal Womens Hospital,Cardiology,Dr. Johnson,Medicaid,Southfield,MI,10/10/2024,10/21/2024,11,8133,8751,Recovered,No
+PID734,88,Female,Hypertension,Troy General Hospital,Orthopedics,Dr. Lee,Private,Southfield,MI,6/15/2024,6/16/2024,1,10819,14285,Transferred,No
+PID735,85,Female,Fracture,Michigan Health Center,Emergency,Dr. Kumar,Medicaid,Troy,MI,10/18/2024,10/25/2024,7,7444,9152,Deceased,Yes
+PID736,69,Female,Pneumonia,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicare,Troy,MI,2/24/2024,3/6/2024,11,4451,7787,Deceased,Yes
+PID737,37,Male,Hypertension,Troy General Hospital,Pediatrics,Dr. Kumar,Medicaid,Canton,MI,11/17/2024,12/2/2024,15,11521,12884,Recovered,No
+PID738,37,Female,Diabetes,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Ann Arbor,MI,9/1/2024,9/6/2024,5,11553,13714,Transferred,No
+PID739,24,Female,Diabetes,Detroit Lakes Medical,Emergency,Dr. Smith,Medicare,Troy,MI,11/7/2024,11/8/2024,1,8064,10303,Improved,No
+PID740,34,Male,Arthritis,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Troy,MI,5/23/2024,6/7/2024,15,9989,11648,Deceased,No
+PID741,67,Female,Fracture,Troy General Hospital,Neurology,Dr. Kumar,Private,Detroit,MI,12/2/2024,12/5/2024,3,3576,4758,Improved,Yes
+PID742,71,Female,Hypertension,Michigan Health Center,Cardiology,Dr. Kumar,Medicare,Canton,MI,5/11/2024,5/13/2024,2,6455,8744,Deceased,Yes
+PID743,60,Male,Asthma,South Canton Care,Emergency,Dr. Kumar,Self-Pay,Canton,MI,6/23/2024,6/26/2024,3,8497,12180,Transferred,No
+PID744,21,Male,Migraine,South Canton Care,Emergency,Dr. Lee,Private,Southfield,MI,6/13/2024,6/21/2024,8,8713,9524,Transferred,Yes
+PID745,73,Female,Heart Failure,South Canton Care,Orthopedics,Dr. Johnson,Medicare,Ann Arbor,MI,2/15/2024,2/28/2024,13,8301,9716,Recovered,Yes
+PID746,41,Female,Infection,Royal Womens Hospital,Orthopedics,Dr. Johnson,Medicare,Ann Arbor,MI,3/12/2024,3/17/2024,5,6213,9155,Deceased,Yes
+PID747,82,Female,Fracture,South Canton Care,Orthopedics,Dr. Lee,Medicaid,Ann Arbor,MI,5/28/2024,6/6/2024,9,5078,7500,Recovered,No
+PID748,29,Female,Stroke,Troy General Hospital,Cardiology,Dr. Johnson,Private,Troy,MI,12/18/2024,12/24/2024,6,3611,6898,Transferred,Yes
+PID749,1,Female,Fracture,Michigan Health Center,Orthopedics,Dr. Kumar,Self-Pay,Southfield,MI,5/19/2024,5/27/2024,8,3040,6864,Recovered,No
+PID750,4,Female,Asthma,Troy General Hospital,Neurology,Dr. Kumar,Medicaid,Detroit,MI,12/3/2024,12/11/2024,8,5810,8246,Recovered,No
+PID751,3,Female,Heart Failure,Royal Womens Hospital,Orthopedics,Dr. Smith,Medicare,Southfield,MI,2/18/2024,2/29/2024,11,8475,12411,Deceased,No
+PID752,74,Female,Migraine,Detroit Lakes Medical,Cardiology,Dr. Kumar,Medicare,Canton,MI,8/3/2024,8/4/2024,1,3044,4836,Recovered,No
+PID753,24,Female,Fracture,Michigan Health Center,Cardiology,Dr. Kumar,Private,Troy,MI,7/26/2024,8/2/2024,7,9358,11058,Recovered,Yes
+PID754,33,Female,Pneumonia,Michigan Health Center,Orthopedics,Dr. Smith,Private,Detroit,MI,6/2/2024,6/4/2024,2,2670,4668,Transferred,No
+PID755,88,Female,Heart Failure,Royal Womens Hospital,Emergency,Dr. Lee,Medicare,Ann Arbor,MI,4/8/2024,4/11/2024,3,11887,12749,Transferred,Yes
+PID756,83,Female,Migraine,Michigan Health Center,Pediatrics,Dr. Johnson,Private,Detroit,MI,2/3/2024,2/6/2024,3,9675,12401,Recovered,No
+PID757,34,Female,Fracture,Troy General Hospital,Neurology,Dr. Kumar,Self-Pay,Troy,MI,1/8/2024,1/22/2024,14,4988,8155,Recovered,No
+PID758,43,Female,Heart Failure,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicare,Troy,MI,10/19/2024,10/28/2024,9,3001,5785,Deceased,No
+PID759,51,Male,Stroke,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Ann Arbor,MI,9/12/2024,9/16/2024,4,9374,10000,Transferred,Yes
+PID760,77,Female,Diabetes,Michigan Health Center,Pediatrics,Dr. Smith,Medicare,Southfield,MI,6/9/2024,6/12/2024,3,6900,8906,Transferred,No
+PID761,36,Female,Arthritis,South Canton Care,Pediatrics,Dr. Lee,Private,Southfield,MI,10/2/2024,10/15/2024,13,4633,7165,Transferred,No
+PID762,10,Female,Diabetes,Troy General Hospital,Orthopedics,Dr. Kumar,Private,Southfield,MI,2/4/2024,2/12/2024,8,4962,6233,Recovered,No
+PID763,89,Female,Asthma,Royal Womens Hospital,Cardiology,Dr. Kumar,Self-Pay,Detroit,MI,8/29/2024,8/30/2024,1,3903,6308,Improved,No
+PID764,73,Female,Fracture,Detroit Lakes Medical,Cardiology,Dr. Johnson,Private,Ann Arbor,MI,9/29/2024,9/30/2024,1,2843,6592,Recovered,Yes
+PID765,73,Male,Infection,Detroit Lakes Medical,Neurology,Dr. Smith,Self-Pay,Southfield,MI,9/15/2024,9/26/2024,11,6056,9365,Deceased,Yes
+PID766,67,Female,Asthma,Troy General Hospital,Pediatrics,Dr. Smith,Medicare,Troy,MI,9/20/2024,9/22/2024,2,10225,12502,Deceased,Yes
+PID767,51,Male,Hypertension,Michigan Health Center,Orthopedics,Dr. Patel,Self-Pay,Canton,MI,3/19/2024,3/30/2024,11,8827,11513,Transferred,Yes
+PID768,10,Male,Arthritis,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicaid,Canton,MI,12/9/2024,12/13/2024,4,5029,6670,Improved,No
+PID769,69,Male,Fracture,Detroit Lakes Medical,Neurology,Dr. Johnson,Medicaid,Detroit,MI,9/4/2024,9/12/2024,8,8568,9220,Improved,No
+PID770,87,Female,Fracture,Royal Womens Hospital,Neurology,Dr. Johnson,Private,Southfield,MI,1/4/2024,1/6/2024,2,4477,5482,Improved,Yes
+PID771,7,Female,Heart Failure,Troy General Hospital,Pediatrics,Dr. Smith,Self-Pay,Ann Arbor,MI,4/19/2024,5/1/2024,12,9277,11864,Transferred,Yes
+PID772,25,Female,Stroke,Detroit Lakes Medical,Orthopedics,Dr. Kumar,Medicaid,Southfield,MI,8/20/2024,8/27/2024,7,10947,12066,Recovered,No
+PID773,27,Female,Asthma,South Canton Care,Orthopedics,Dr. Smith,Medicaid,Southfield,MI,6/22/2024,6/23/2024,1,3068,4139,Deceased,No
+PID774,79,Male,Asthma,Royal Womens Hospital,Pediatrics,Dr. Smith,Self-Pay,Troy,MI,11/10/2024,11/12/2024,2,3818,5532,Recovered,No
+PID775,9,Male,Arthritis,Royal Womens Hospital,Pediatrics,Dr. Johnson,Medicare,Southfield,MI,6/10/2024,6/13/2024,3,7906,10749,Deceased,No
+PID776,61,Female,Migraine,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Medicaid,Detroit,MI,3/12/2024,3/26/2024,14,9899,12193,Improved,Yes
+PID777,4,Female,Hypertension,Royal Womens Hospital,Orthopedics,Dr. Smith,Medicaid,Troy,MI,9/10/2024,9/18/2024,8,2695,3943,Transferred,No
+PID778,9,Female,Arthritis,South Canton Care,Orthopedics,Dr. Kumar,Medicaid,Canton,MI,9/6/2024,9/15/2024,9,11333,11913,Deceased,Yes
+PID779,8,Male,Infection,South Canton Care,Orthopedics,Dr. Lee,Medicare,Canton,MI,8/8/2024,8/18/2024,10,8918,10980,Deceased,Yes
+PID780,69,Female,Asthma,Detroit Lakes Medical,Pediatrics,Dr. Lee,Medicare,Canton,MI,10/24/2024,10/27/2024,3,8544,11489,Improved,No
+PID781,43,Male,Pneumonia,Detroit Lakes Medical,Neurology,Dr. Lee,Medicaid,Ann Arbor,MI,6/7/2024,6/22/2024,15,10077,13472,Deceased,No
+PID782,43,Female,Arthritis,Troy General Hospital,Neurology,Dr. Smith,Self-Pay,Southfield,MI,12/2/2024,12/14/2024,12,10629,11333,Improved,Yes
+PID783,37,Male,Pneumonia,Troy General Hospital,Neurology,Dr. Johnson,Self-Pay,Detroit,MI,4/25/2024,5/6/2024,11,2340,5468,Deceased,Yes
+PID784,9,Male,Heart Failure,Detroit Lakes Medical,Pediatrics,Dr. Smith,Private,Southfield,MI,10/25/2024,10/28/2024,3,6738,10353,Recovered,Yes
+PID785,90,Male,Fracture,Royal Womens Hospital,Pediatrics,Dr. Lee,Self-Pay,Canton,MI,6/9/2024,6/13/2024,4,10820,11474,Deceased,No
+PID786,69,Female,Asthma,Michigan Health Center,Pediatrics,Dr. Kumar,Medicaid,Canton,MI,8/9/2024,8/15/2024,6,8712,10957,Deceased,No
+PID787,62,Male,Pneumonia,Royal Womens Hospital,Emergency,Dr. Patel,Medicare,Detroit,MI,12/18/2024,12/25/2024,7,3423,5910,Improved,Yes
+PID788,82,Female,Fracture,South Canton Care,Neurology,Dr. Kumar,Medicaid,Ann Arbor,MI,4/28/2024,5/4/2024,6,5510,7980,Recovered,No
+PID789,11,Male,Diabetes,Detroit Lakes Medical,Cardiology,Dr. Lee,Self-Pay,Southfield,MI,10/20/2024,11/2/2024,13,5047,8919,Improved,Yes
+PID790,87,Female,Arthritis,Troy General Hospital,Emergency,Dr. Patel,Self-Pay,Ann Arbor,MI,10/3/2024,10/13/2024,10,10005,13766,Transferred,No
+PID791,54,Male,Hypertension,Michigan Health Center,Orthopedics,Dr. Johnson,Medicaid,Ann Arbor,MI,4/15/2024,4/29/2024,14,5186,9043,Improved,No
+PID792,40,Female,Arthritis,South Canton Care,Neurology,Dr. Lee,Private,Detroit,MI,9/11/2024,9/16/2024,5,11517,14293,Deceased,Yes
+PID793,90,Male,Diabetes,Michigan Health Center,Orthopedics,Dr. Kumar,Medicare,Southfield,MI,12/21/2024,12/29/2024,8,6762,9896,Transferred,Yes
+PID794,28,Female,Pneumonia,Detroit Lakes Medical,Emergency,Dr. Smith,Self-Pay,Southfield,MI,6/23/2024,7/7/2024,14,4478,8093,Recovered,No
+PID795,42,Male,Stroke,Michigan Health Center,Orthopedics,Dr. Patel,Medicaid,Detroit,MI,12/6/2024,12/13/2024,7,10913,13187,Improved,No
+PID796,72,Female,Migraine,Troy General Hospital,Emergency,Dr. Smith,Self-Pay,Ann Arbor,MI,4/17/2024,5/1/2024,14,11121,11696,Recovered,Yes
+PID797,12,Female,Arthritis,Troy General Hospital,Cardiology,Dr. Lee,Medicaid,Canton,MI,6/11/2024,6/14/2024,3,8484,10972,Transferred,Yes
+PID798,29,Male,Heart Failure,South Canton Care,Cardiology,Dr. Lee,Self-Pay,Canton,MI,7/24/2024,8/6/2024,13,2557,6389,Recovered,No
+PID799,23,Male,Asthma,South Canton Care,Neurology,Dr. Smith,Self-Pay,Ann Arbor,MI,3/9/2024,3/17/2024,8,11549,15085,Deceased,Yes
+PID800,21,Male,Arthritis,South Canton Care,Cardiology,Dr. Kumar,Medicare,Troy,MI,3/12/2024,3/26/2024,14,8780,10802,Deceased,Yes
+PID801,52,Female,Heart Failure,Royal Womens Hospital,Emergency,Dr. Patel,Medicare,Detroit,MI,8/31/2024,9/15/2024,15,5121,5692,Transferred,No
+PID802,44,Male,Fracture,Detroit Lakes Medical,Pediatrics,Dr. Lee,Medicaid,Southfield,MI,1/8/2024,1/18/2024,10,4526,8343,Transferred,Yes
+PID803,86,Female,Heart Failure,Troy General Hospital,Cardiology,Dr. Johnson,Medicare,Southfield,MI,8/9/2024,8/18/2024,9,6324,7133,Deceased,No
+PID804,84,Male,Hypertension,Royal Womens Hospital,Cardiology,Dr. Patel,Medicare,Detroit,MI,3/26/2024,4/6/2024,11,10764,11578,Recovered,Yes
+PID805,30,Female,Pneumonia,Royal Womens Hospital,Pediatrics,Dr. Lee,Medicaid,Detroit,MI,2/17/2024,2/19/2024,2,6742,7544,Improved,No
+PID806,89,Female,Migraine,South Canton Care,Neurology,Dr. Kumar,Self-Pay,Detroit,MI,7/19/2024,7/21/2024,2,3445,5827,Deceased,No
+PID807,66,Male,Heart Failure,Royal Womens Hospital,Emergency,Dr. Patel,Private,Southfield,MI,1/30/2024,2/9/2024,10,4301,5604,Improved,Yes
+PID808,87,Female,Hypertension,Royal Womens Hospital,Cardiology,Dr. Smith,Medicare,Canton,MI,5/31/2024,6/8/2024,8,11226,12094,Recovered,No
+PID809,87,Female,Infection,Detroit Lakes Medical,Pediatrics,Dr. Smith,Private,Detroit,MI,2/20/2024,3/5/2024,14,9724,10616,Deceased,Yes
+PID810,13,Female,Heart Failure,Detroit Lakes Medical,Neurology,Dr. Johnson,Private,Troy,MI,10/16/2024,10/19/2024,3,5140,7209,Recovered,No
+PID811,43,Female,Heart Failure,South Canton Care,Orthopedics,Dr. Smith,Private,Detroit,MI,3/14/2024,3/29/2024,15,6961,10943,Transferred,No
+PID812,25,Female,Hypertension,Michigan Health Center,Orthopedics,Dr. Kumar,Medicaid,Ann Arbor,MI,3/4/2024,3/9/2024,5,6690,9312,Transferred,No
+PID813,68,Male,Pneumonia,Troy General Hospital,Emergency,Dr. Patel,Private,Southfield,MI,8/2/2024,8/15/2024,13,9475,12007,Recovered,Yes
+PID814,8,Female,Fracture,Troy General Hospital,Cardiology,Dr. Lee,Medicaid,Ann Arbor,MI,7/17/2024,7/25/2024,8,7497,8612,Deceased,Yes
+PID815,70,Female,Arthritis,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Medicaid,Southfield,MI,3/23/2024,3/30/2024,7,7199,10352,Recovered,Yes
+PID816,47,Male,Heart Failure,Detroit Lakes Medical,Pediatrics,Dr. Patel,Self-Pay,Ann Arbor,MI,8/25/2024,9/7/2024,13,10025,11318,Transferred,Yes
+PID817,5,Male,Migraine,Detroit Lakes Medical,Neurology,Dr. Smith,Private,Detroit,MI,11/9/2024,11/22/2024,13,10133,13742,Recovered,No
+PID818,52,Male,Arthritis,Troy General Hospital,Orthopedics,Dr. Lee,Private,Detroit,MI,1/31/2024,2/10/2024,10,7343,9837,Recovered,No
+PID819,52,Female,Asthma,Royal Womens Hospital,Pediatrics,Dr. Kumar,Private,Southfield,MI,9/16/2024,9/28/2024,12,11205,14069,Transferred,No
+PID820,23,Female,Heart Failure,Michigan Health Center,Neurology,Dr. Patel,Medicaid,Ann Arbor,MI,5/13/2024,5/26/2024,13,3509,4034,Recovered,Yes
+PID821,80,Female,Arthritis,Troy General Hospital,Neurology,Dr. Lee,Medicaid,Detroit,MI,5/6/2024,5/21/2024,15,6388,9715,Recovered,No
+PID822,50,Female,Heart Failure,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Canton,MI,11/12/2024,11/18/2024,6,7806,9133,Recovered,Yes
+PID823,15,Female,Stroke,Troy General Hospital,Pediatrics,Dr. Kumar,Self-Pay,Canton,MI,8/27/2024,9/9/2024,13,2876,3707,Improved,Yes
+PID824,84,Male,Stroke,South Canton Care,Emergency,Dr. Smith,Medicaid,Troy,MI,5/20/2024,5/22/2024,2,10642,12943,Recovered,Yes
+PID825,45,Male,Infection,Troy General Hospital,Emergency,Dr. Smith,Medicare,Ann Arbor,MI,12/22/2024,12/24/2024,2,5654,6344,Recovered,Yes
+PID826,81,Female,Stroke,Troy General Hospital,Pediatrics,Dr. Patel,Medicare,Canton,MI,2/15/2024,2/27/2024,12,6483,10101,Recovered,No
+PID827,46,Female,Stroke,South Canton Care,Pediatrics,Dr. Smith,Private,Ann Arbor,MI,3/16/2024,3/17/2024,1,10764,14371,Improved,Yes
+PID828,30,Female,Migraine,South Canton Care,Pediatrics,Dr. Johnson,Medicaid,Detroit,MI,7/14/2024,7/21/2024,7,8702,11808,Recovered,Yes
+PID829,59,Male,Pneumonia,Detroit Lakes Medical,Orthopedics,Dr. Patel,Medicaid,Southfield,MI,7/16/2024,7/29/2024,13,10383,11459,Recovered,Yes
+PID830,31,Male,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Smith,Medicare,Ann Arbor,MI,10/24/2024,10/26/2024,2,3741,4705,Transferred,No
+PID831,6,Female,Heart Failure,Detroit Lakes Medical,Neurology,Dr. Kumar,Self-Pay,Ann Arbor,MI,12/7/2024,12/18/2024,11,4142,5771,Deceased,No
+PID832,74,Female,Hypertension,Michigan Health Center,Emergency,Dr. Johnson,Self-Pay,Canton,MI,5/27/2024,5/29/2024,2,6031,6812,Improved,No
+PID833,72,Female,Stroke,Michigan Health Center,Emergency,Dr. Kumar,Private,Southfield,MI,8/14/2024,8/17/2024,3,5500,6499,Improved,Yes
+PID834,5,Female,Stroke,Detroit Lakes Medical,Orthopedics,Dr. Smith,Self-Pay,Detroit,MI,4/2/2024,4/11/2024,9,7682,8723,Transferred,No
+PID835,63,Female,Infection,Troy General Hospital,Neurology,Dr. Kumar,Medicaid,Ann Arbor,MI,9/1/2024,9/9/2024,8,4235,6819,Improved,No
+PID836,85,Female,Hypertension,South Canton Care,Emergency,Dr. Patel,Medicare,Ann Arbor,MI,2/27/2024,3/2/2024,4,8504,10022,Deceased,No
+PID837,1,Male,Diabetes,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicaid,Southfield,MI,3/28/2024,4/9/2024,12,5640,6668,Improved,Yes
+PID838,43,Male,Hypertension,Royal Womens Hospital,Neurology,Dr. Kumar,Medicaid,Canton,MI,5/27/2024,5/28/2024,1,11202,11858,Deceased,Yes
+PID839,11,Female,Asthma,Michigan Health Center,Pediatrics,Dr. Smith,Private,Detroit,MI,8/18/2024,9/2/2024,15,6260,9820,Improved,Yes
+PID840,60,Female,Asthma,Troy General Hospital,Pediatrics,Dr. Lee,Self-Pay,Troy,MI,3/20/2024,3/31/2024,11,6913,9088,Deceased,Yes
+PID841,76,Female,Pneumonia,South Canton Care,Orthopedics,Dr. Kumar,Medicare,Canton,MI,1/28/2024,2/12/2024,15,10597,14375,Deceased,Yes
+PID842,14,Female,Arthritis,South Canton Care,Pediatrics,Dr. Johnson,Private,Ann Arbor,MI,4/7/2024,4/18/2024,11,6026,9677,Recovered,No
+PID843,78,Male,Diabetes,Troy General Hospital,Orthopedics,Dr. Kumar,Medicare,Ann Arbor,MI,6/13/2024,6/20/2024,7,7526,9790,Recovered,Yes
+PID844,34,Male,Pneumonia,Detroit Lakes Medical,Pediatrics,Dr. Patel,Private,Canton,MI,5/25/2024,6/3/2024,9,5824,8155,Transferred,No
+PID845,42,Male,Fracture,Royal Womens Hospital,Neurology,Dr. Lee,Private,Detroit,MI,1/21/2024,1/27/2024,6,9803,12575,Deceased,No
+PID846,66,Male,Fracture,South Canton Care,Neurology,Dr. Johnson,Medicare,Troy,MI,12/8/2024,12/10/2024,2,4818,8100,Transferred,Yes
+PID847,73,Male,Migraine,Detroit Lakes Medical,Cardiology,Dr. Lee,Self-Pay,Canton,MI,12/12/2024,12/22/2024,10,4815,5316,Improved,Yes
+PID848,20,Male,Arthritis,Troy General Hospital,Neurology,Dr. Kumar,Private,Detroit,MI,8/9/2024,8/21/2024,12,6427,9176,Deceased,No
+PID849,68,Female,Hypertension,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Self-Pay,Southfield,MI,6/20/2024,6/22/2024,2,5934,6470,Recovered,No
+PID850,4,Male,Migraine,Royal Womens Hospital,Emergency,Dr. Lee,Medicare,Canton,MI,12/4/2024,12/17/2024,13,11390,12114,Transferred,No
+PID851,57,Female,Infection,Royal Womens Hospital,Emergency,Dr. Johnson,Self-Pay,Southfield,MI,9/5/2024,9/14/2024,9,5256,8567,Improved,No
+PID852,2,Female,Hypertension,Troy General Hospital,Emergency,Dr. Lee,Medicaid,Canton,MI,8/3/2024,8/10/2024,7,4583,5971,Deceased,Yes
+PID853,3,Male,Fracture,Troy General Hospital,Pediatrics,Dr. Lee,Private,Ann Arbor,MI,6/30/2024,7/8/2024,8,3603,7059,Transferred,No
+PID854,73,Male,Arthritis,South Canton Care,Pediatrics,Dr. Kumar,Self-Pay,Troy,MI,10/16/2024,10/27/2024,11,7711,10843,Recovered,No
+PID855,23,Male,Heart Failure,Detroit Lakes Medical,Cardiology,Dr. Kumar,Self-Pay,Troy,MI,9/8/2024,9/16/2024,8,9622,10442,Improved,No
+PID856,65,Female,Heart Failure,South Canton Care,Emergency,Dr. Lee,Medicaid,Southfield,MI,3/19/2024,3/29/2024,10,4674,6970,Improved,Yes
+PID857,59,Female,Arthritis,Troy General Hospital,Pediatrics,Dr. Patel,Medicaid,Canton,MI,9/23/2024,10/8/2024,15,3035,6150,Transferred,No
+PID858,76,Female,Fracture,Detroit Lakes Medical,Emergency,Dr. Patel,Private,Canton,MI,11/27/2024,11/30/2024,3,2029,4446,Recovered,No
+PID859,23,Female,Infection,Detroit Lakes Medical,Neurology,Dr. Patel,Medicare,Canton,MI,4/11/2024,4/25/2024,14,4759,5990,Improved,No
+PID860,80,Male,Heart Failure,South Canton Care,Neurology,Dr. Patel,Private,Troy,MI,5/11/2024,5/13/2024,2,8600,11519,Deceased,Yes
+PID861,34,Male,Heart Failure,Detroit Lakes Medical,Pediatrics,Dr. Patel,Medicare,Southfield,MI,8/17/2024,8/25/2024,8,7824,11384,Recovered,Yes
+PID862,8,Male,Heart Failure,South Canton Care,Pediatrics,Dr. Kumar,Self-Pay,Canton,MI,1/14/2024,1/25/2024,11,4661,7362,Deceased,Yes
+PID863,2,Male,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Detroit,MI,9/3/2024,9/7/2024,4,9292,9895,Recovered,No
+PID864,32,Male,Pneumonia,Troy General Hospital,Neurology,Dr. Lee,Private,Ann Arbor,MI,5/7/2024,5/17/2024,10,10788,11934,Improved,No
+PID865,14,Male,Diabetes,South Canton Care,Orthopedics,Dr. Johnson,Medicaid,Ann Arbor,MI,9/19/2024,9/30/2024,11,9550,13021,Improved,No
+PID866,53,Female,Migraine,Royal Womens Hospital,Neurology,Dr. Johnson,Private,Southfield,MI,1/17/2024,1/24/2024,7,5567,9522,Recovered,Yes
+PID867,72,Male,Heart Failure,Troy General Hospital,Neurology,Dr. Smith,Medicare,Detroit,MI,8/2/2024,8/13/2024,11,7719,11617,Improved,Yes
+PID868,72,Female,Infection,Michigan Health Center,Emergency,Dr. Kumar,Self-Pay,Ann Arbor,MI,4/29/2024,5/8/2024,9,6173,8856,Improved,Yes
+PID869,71,Male,Diabetes,Troy General Hospital,Pediatrics,Dr. Lee,Self-Pay,Canton,MI,2/14/2024,2/15/2024,1,11601,12346,Improved,No
+PID870,39,Male,Heart Failure,Michigan Health Center,Emergency,Dr. Johnson,Medicaid,Ann Arbor,MI,12/2/2024,12/6/2024,4,10204,13975,Transferred,Yes
+PID871,49,Female,Fracture,Royal Womens Hospital,Emergency,Dr. Lee,Private,Ann Arbor,MI,10/26/2024,11/7/2024,12,3579,6625,Transferred,No
+PID872,64,Male,Fracture,Royal Womens Hospital,Pediatrics,Dr. Johnson,Medicaid,Detroit,MI,5/6/2024,5/7/2024,1,2086,4449,Improved,Yes
+PID873,1,Male,Infection,Detroit Lakes Medical,Neurology,Dr. Smith,Medicare,Ann Arbor,MI,2/3/2024,2/11/2024,8,3502,5987,Transferred,No
+PID874,4,Male,Hypertension,South Canton Care,Emergency,Dr. Kumar,Private,Troy,MI,12/24/2024,1/1/2025,8,3207,4807,Improved,Yes
+PID875,63,Male,Fracture,South Canton Care,Emergency,Dr. Smith,Self-Pay,Troy,MI,9/24/2024,9/27/2024,3,8956,12932,Improved,No
+PID876,53,Male,Diabetes,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Medicare,Troy,MI,9/28/2024,10/11/2024,13,11136,14137,Improved,Yes
+PID877,5,Male,Asthma,Royal Womens Hospital,Neurology,Dr. Patel,Self-Pay,Detroit,MI,11/1/2024,11/14/2024,13,6821,9240,Deceased,Yes
+PID878,41,Female,Hypertension,Michigan Health Center,Emergency,Dr. Johnson,Medicaid,Detroit,MI,5/16/2024,5/24/2024,8,8147,12107,Transferred,Yes
+PID879,55,Female,Diabetes,Detroit Lakes Medical,Orthopedics,Dr. Patel,Medicare,Southfield,MI,9/14/2024,9/18/2024,4,2153,3159,Deceased,Yes
+PID880,9,Male,Pneumonia,Troy General Hospital,Neurology,Dr. Kumar,Medicare,Ann Arbor,MI,4/2/2024,4/4/2024,2,3585,4853,Transferred,Yes
+PID881,3,Female,Heart Failure,Troy General Hospital,Neurology,Dr. Kumar,Medicare,Troy,MI,5/18/2024,5/26/2024,8,10513,12308,Transferred,Yes
+PID882,32,Female,Migraine,Michigan Health Center,Emergency,Dr. Johnson,Medicare,Ann Arbor,MI,6/14/2024,6/15/2024,1,6635,7228,Deceased,Yes
+PID883,21,Female,Infection,Detroit Lakes Medical,Orthopedics,Dr. Lee,Medicaid,Canton,MI,9/22/2024,10/2/2024,10,6008,7451,Recovered,Yes
+PID884,13,Male,Pneumonia,Troy General Hospital,Neurology,Dr. Kumar,Medicare,Ann Arbor,MI,11/12/2024,11/15/2024,3,4945,8719,Deceased,Yes
+PID885,83,Male,Arthritis,Troy General Hospital,Orthopedics,Dr. Patel,Medicaid,Detroit,MI,12/27/2024,12/29/2024,2,6115,9133,Deceased,No
+PID886,37,Male,Hypertension,South Canton Care,Pediatrics,Dr. Kumar,Self-Pay,Troy,MI,1/30/2024,2/14/2024,15,2864,4973,Transferred,No
+PID887,61,Female,Infection,Detroit Lakes Medical,Cardiology,Dr. Kumar,Medicaid,Canton,MI,11/8/2024,11/13/2024,5,11730,14889,Deceased,No
+PID888,20,Female,Heart Failure,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicaid,Canton,MI,6/1/2024,6/6/2024,5,7113,8304,Recovered,No
+PID889,81,Male,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Canton,MI,12/22/2024,12/28/2024,6,8509,11512,Deceased,No
+PID890,16,Male,Diabetes,Detroit Lakes Medical,Cardiology,Dr. Johnson,Self-Pay,Detroit,MI,7/10/2024,7/15/2024,5,4425,5696,Deceased,Yes
+PID891,23,Male,Arthritis,South Canton Care,Neurology,Dr. Smith,Private,Troy,MI,5/12/2024,5/22/2024,10,7996,10089,Transferred,No
+PID892,23,Male,Arthritis,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicare,Detroit,MI,3/19/2024,3/22/2024,3,2082,4842,Deceased,Yes
+PID893,64,Female,Heart Failure,South Canton Care,Pediatrics,Dr. Lee,Self-Pay,Troy,MI,12/1/2024,12/7/2024,6,9159,11327,Deceased,Yes
+PID894,42,Male,Hypertension,South Canton Care,Emergency,Dr. Patel,Medicaid,Canton,MI,5/8/2024,5/9/2024,1,7934,9904,Deceased,No
+PID895,64,Female,Pneumonia,South Canton Care,Pediatrics,Dr. Johnson,Private,Troy,MI,11/14/2024,11/26/2024,12,3842,4889,Recovered,No
+PID896,72,Male,Arthritis,Troy General Hospital,Cardiology,Dr. Smith,Medicare,Southfield,MI,12/15/2024,12/19/2024,4,3713,6330,Transferred,No
+PID897,23,Female,Arthritis,Detroit Lakes Medical,Neurology,Dr. Johnson,Medicaid,Ann Arbor,MI,10/6/2024,10/18/2024,12,5073,5635,Transferred,Yes
+PID898,77,Female,Stroke,Detroit Lakes Medical,Neurology,Dr. Johnson,Private,Detroit,MI,4/9/2024,4/11/2024,2,11456,15048,Recovered,Yes
+PID899,40,Female,Heart Failure,Royal Womens Hospital,Emergency,Dr. Smith,Medicaid,Troy,MI,11/30/2024,12/15/2024,15,4444,8281,Deceased,Yes
+PID900,58,Female,Asthma,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Self-Pay,Ann Arbor,MI,8/11/2024,8/23/2024,12,5445,8811,Deceased,No
+PID901,81,Female,Diabetes,Royal Womens Hospital,Emergency,Dr. Kumar,Medicaid,Southfield,MI,6/7/2024,6/17/2024,10,7475,8569,Transferred,Yes
+PID902,43,Male,Pneumonia,Michigan Health Center,Emergency,Dr. Patel,Self-Pay,Detroit,MI,6/28/2024,7/3/2024,5,6851,7941,Improved,Yes
+PID903,22,Female,Hypertension,Detroit Lakes Medical,Neurology,Dr. Lee,Private,Troy,MI,4/4/2024,4/11/2024,7,4835,8147,Improved,Yes
+PID904,70,Male,Pneumonia,Michigan Health Center,Orthopedics,Dr. Johnson,Self-Pay,Detroit,MI,7/22/2024,8/2/2024,11,9286,9920,Deceased,Yes
+PID905,8,Female,Diabetes,Detroit Lakes Medical,Orthopedics,Dr. Smith,Medicaid,Detroit,MI,6/14/2024,6/22/2024,8,3121,5311,Deceased,No
+PID906,16,Male,Migraine,Michigan Health Center,Pediatrics,Dr. Patel,Medicaid,Troy,MI,3/20/2024,3/30/2024,10,5908,7279,Improved,No
+PID907,68,Male,Heart Failure,Royal Womens Hospital,Neurology,Dr. Kumar,Medicaid,Canton,MI,4/11/2024,4/24/2024,13,9431,11922,Deceased,Yes
+PID908,79,Female,Infection,South Canton Care,Cardiology,Dr. Smith,Self-Pay,Troy,MI,11/15/2024,11/22/2024,7,2544,6518,Improved,No
+PID909,80,Male,Arthritis,Royal Womens Hospital,Neurology,Dr. Kumar,Private,Detroit,MI,10/10/2024,10/24/2024,14,10672,12036,Transferred,No
+PID910,41,Female,Pneumonia,Troy General Hospital,Neurology,Dr. Lee,Medicare,Troy,MI,9/19/2024,9/20/2024,1,6077,9054,Recovered,Yes
+PID911,72,Female,Fracture,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicaid,Canton,MI,2/8/2024,2/17/2024,9,6957,10835,Recovered,No
+PID912,8,Male,Fracture,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Detroit,MI,9/16/2024,9/20/2024,4,8419,10864,Deceased,Yes
+PID913,59,Female,Heart Failure,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Detroit,MI,1/29/2024,2/1/2024,3,11433,12129,Deceased,No
+PID914,74,Male,Hypertension,Detroit Lakes Medical,Neurology,Dr. Smith,Self-Pay,Canton,MI,6/10/2024,6/16/2024,6,7848,11750,Improved,No
+PID915,78,Male,Hypertension,Troy General Hospital,Neurology,Dr. Patel,Self-Pay,Detroit,MI,12/13/2024,12/19/2024,6,9329,13051,Transferred,Yes
+PID916,71,Male,Migraine,Detroit Lakes Medical,Emergency,Dr. Kumar,Medicaid,Detroit,MI,12/23/2024,12/28/2024,5,3020,6662,Recovered,No
+PID917,84,Female,Diabetes,Royal Womens Hospital,Emergency,Dr. Kumar,Private,Southfield,MI,11/12/2024,11/20/2024,8,7626,10973,Recovered,Yes
+PID918,75,Female,Arthritis,South Canton Care,Pediatrics,Dr. Johnson,Private,Canton,MI,5/20/2024,5/31/2024,11,2950,6573,Recovered,Yes
+PID919,81,Female,Migraine,South Canton Care,Cardiology,Dr. Johnson,Medicare,Troy,MI,7/7/2024,7/10/2024,3,3294,6582,Improved,Yes
+PID920,20,Female,Migraine,Troy General Hospital,Emergency,Dr. Lee,Medicaid,Troy,MI,4/27/2024,5/8/2024,11,11302,14907,Transferred,Yes
+PID921,14,Male,Stroke,Detroit Lakes Medical,Pediatrics,Dr. Lee,Self-Pay,Troy,MI,1/9/2024,1/20/2024,11,4134,6944,Improved,No
+PID922,39,Female,Fracture,South Canton Care,Cardiology,Dr. Smith,Medicaid,Southfield,MI,8/21/2024,8/29/2024,8,10928,14526,Improved,No
+PID923,18,Female,Arthritis,South Canton Care,Pediatrics,Dr. Smith,Medicare,Detroit,MI,4/1/2024,4/13/2024,12,11247,12888,Deceased,Yes
+PID924,83,Female,Hypertension,South Canton Care,Cardiology,Dr. Patel,Private,Canton,MI,7/9/2024,7/16/2024,7,2689,5223,Recovered,Yes
+PID925,90,Female,Asthma,Michigan Health Center,Orthopedics,Dr. Johnson,Self-Pay,Southfield,MI,5/30/2024,6/2/2024,3,8555,10171,Deceased,Yes
+PID926,76,Male,Pneumonia,South Canton Care,Orthopedics,Dr. Kumar,Private,Detroit,MI,3/18/2024,3/25/2024,7,8433,11019,Improved,No
+PID927,40,Male,Fracture,South Canton Care,Cardiology,Dr. Johnson,Medicaid,Canton,MI,2/26/2024,3/1/2024,4,6758,7949,Deceased,No
+PID928,60,Male,Heart Failure,South Canton Care,Neurology,Dr. Kumar,Medicare,Southfield,MI,12/5/2024,12/20/2024,15,4200,7622,Deceased,Yes
+PID929,80,Female,Diabetes,Michigan Health Center,Cardiology,Dr. Kumar,Medicaid,Southfield,MI,11/4/2024,11/15/2024,11,10722,12923,Transferred,Yes
+PID930,80,Female,Infection,South Canton Care,Neurology,Dr. Lee,Self-Pay,Ann Arbor,MI,7/24/2024,8/8/2024,15,5309,8452,Recovered,No
+PID931,43,Female,Migraine,Troy General Hospital,Neurology,Dr. Patel,Medicare,Ann Arbor,MI,3/8/2024,3/21/2024,13,2637,5946,Transferred,No
+PID932,62,Male,Arthritis,Troy General Hospital,Cardiology,Dr. Patel,Private,Ann Arbor,MI,12/16/2024,12/17/2024,1,7693,11584,Recovered,Yes
+PID933,47,Male,Diabetes,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Detroit,MI,2/4/2024,2/13/2024,9,2897,5735,Improved,Yes
+PID934,25,Male,Heart Failure,Royal Womens Hospital,Cardiology,Dr. Lee,Medicare,Troy,MI,5/15/2024,5/30/2024,15,5207,6891,Improved,Yes
+PID935,47,Male,Heart Failure,Royal Womens Hospital,Neurology,Dr. Smith,Medicaid,Troy,MI,8/14/2024,8/26/2024,12,9122,11775,Transferred,Yes
+PID936,73,Male,Migraine,Troy General Hospital,Pediatrics,Dr. Patel,Private,Ann Arbor,MI,8/9/2024,8/10/2024,1,4599,7980,Recovered,Yes
+PID937,27,Female,Diabetes,Royal Womens Hospital,Emergency,Dr. Smith,Private,Southfield,MI,6/27/2024,6/28/2024,1,3786,6699,Recovered,No
+PID938,73,Male,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Patel,Medicare,Canton,MI,6/8/2024,6/19/2024,11,7599,9800,Deceased,Yes
+PID939,27,Female,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Kumar,Private,Canton,MI,12/28/2024,1/4/2025,7,9713,13487,Deceased,Yes
+PID940,3,Female,Pneumonia,Michigan Health Center,Cardiology,Dr. Patel,Self-Pay,Detroit,MI,7/25/2024,8/5/2024,11,6667,8962,Recovered,No
+PID941,52,Female,Heart Failure,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicaid,Detroit,MI,10/2/2024,10/13/2024,11,11555,14781,Transferred,No
+PID942,38,Female,Infection,South Canton Care,Emergency,Dr. Lee,Medicare,Canton,MI,12/27/2024,12/30/2024,3,2484,5163,Improved,No
+PID943,11,Female,Stroke,South Canton Care,Neurology,Dr. Patel,Private,Detroit,MI,5/10/2024,5/19/2024,9,7954,8789,Recovered,No
+PID944,83,Male,Migraine,Troy General Hospital,Cardiology,Dr. Patel,Medicare,Ann Arbor,MI,7/8/2024,7/15/2024,7,2676,3742,Improved,No
+PID945,87,Male,Stroke,Detroit Lakes Medical,Emergency,Dr. Johnson,Medicaid,Ann Arbor,MI,10/27/2024,11/5/2024,9,8115,10014,Recovered,Yes
+PID946,71,Female,Fracture,Detroit Lakes Medical,Neurology,Dr. Patel,Medicaid,Troy,MI,6/24/2024,7/8/2024,14,2561,5467,Transferred,No
+PID947,46,Male,Pneumonia,South Canton Care,Emergency,Dr. Patel,Medicaid,Detroit,MI,12/15/2024,12/25/2024,10,6601,7282,Improved,No
+PID948,61,Female,Asthma,Royal Womens Hospital,Neurology,Dr. Kumar,Medicare,Canton,MI,7/31/2024,8/7/2024,7,10480,14360,Recovered,No
+PID949,69,Male,Migraine,Troy General Hospital,Orthopedics,Dr. Kumar,Self-Pay,Troy,MI,5/19/2024,5/23/2024,4,3855,7628,Deceased,Yes
+PID950,44,Male,Migraine,Troy General Hospital,Cardiology,Dr. Lee,Medicaid,Canton,MI,2/10/2024,2/25/2024,15,10863,14144,Improved,Yes
+PID951,75,Male,Arthritis,Michigan Health Center,Orthopedics,Dr. Smith,Self-Pay,Detroit,MI,12/30/2024,1/5/2025,6,4560,7893,Deceased,No
+PID952,52,Female,Arthritis,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Self-Pay,Canton,MI,3/27/2024,4/11/2024,15,9437,11770,Transferred,No
+PID953,53,Male,Fracture,Troy General Hospital,Cardiology,Dr. Smith,Self-Pay,Canton,MI,8/2/2024,8/4/2024,2,2833,5679,Recovered,Yes
+PID954,80,Female,Diabetes,South Canton Care,Pediatrics,Dr. Lee,Self-Pay,Canton,MI,2/2/2024,2/3/2024,1,2260,2987,Recovered,Yes
+PID955,38,Male,Pneumonia,Royal Womens Hospital,Neurology,Dr. Kumar,Medicare,Troy,MI,4/2/2024,4/10/2024,8,6643,8246,Recovered,Yes
+PID956,32,Female,Arthritis,Michigan Health Center,Cardiology,Dr. Lee,Private,Detroit,MI,6/13/2024,6/16/2024,3,5484,7572,Recovered,Yes
+PID957,90,Female,Asthma,Detroit Lakes Medical,Pediatrics,Dr. Patel,Self-Pay,Troy,MI,4/12/2024,4/21/2024,9,10204,13222,Improved,Yes
+PID958,65,Male,Hypertension,Detroit Lakes Medical,Emergency,Dr. Lee,Medicare,Canton,MI,9/2/2024,9/10/2024,8,5351,7713,Transferred,No
+PID959,11,Male,Pneumonia,Troy General Hospital,Pediatrics,Dr. Kumar,Medicaid,Troy,MI,2/15/2024,2/20/2024,5,4747,5256,Transferred,No
+PID960,30,Male,Heart Failure,Detroit Lakes Medical,Neurology,Dr. Patel,Medicaid,Ann Arbor,MI,5/28/2024,6/9/2024,12,9543,12425,Improved,No
+PID961,51,Male,Migraine,Detroit Lakes Medical,Cardiology,Dr. Johnson,Medicaid,Troy,MI,7/10/2024,7/23/2024,13,10411,11184,Improved,Yes
+PID962,38,Male,Hypertension,Detroit Lakes Medical,Orthopedics,Dr. Johnson,Self-Pay,Canton,MI,7/3/2024,7/18/2024,15,4807,8189,Improved,Yes
+PID963,10,Male,Migraine,Royal Womens Hospital,Neurology,Dr. Patel,Medicaid,Southfield,MI,5/10/2024,5/18/2024,8,4828,7896,Transferred,No
+PID964,23,Male,Diabetes,South Canton Care,Emergency,Dr. Patel,Medicaid,Canton,MI,10/11/2024,10/24/2024,13,3848,6744,Recovered,No
+PID965,76,Male,Pneumonia,Michigan Health Center,Pediatrics,Dr. Smith,Medicaid,Southfield,MI,9/15/2024,9/20/2024,5,6317,7587,Deceased,No
+PID966,31,Male,Infection,South Canton Care,Neurology,Dr. Johnson,Private,Ann Arbor,MI,2/29/2024,3/15/2024,15,2729,5871,Recovered,Yes
+PID967,6,Female,Heart Failure,Detroit Lakes Medical,Pediatrics,Dr. Smith,Self-Pay,Ann Arbor,MI,12/12/2024,12/25/2024,13,6771,9947,Deceased,No
+PID968,1,Female,Migraine,Michigan Health Center,Orthopedics,Dr. Smith,Medicare,Ann Arbor,MI,11/5/2024,11/16/2024,11,8028,11814,Recovered,Yes
+PID969,2,Male,Diabetes,Detroit Lakes Medical,Neurology,Dr. Kumar,Private,Troy,MI,10/10/2024,10/21/2024,11,10198,13635,Improved,No
+PID970,78,Female,Stroke,Detroit Lakes Medical,Pediatrics,Dr. Kumar,Medicaid,Detroit,MI,2/17/2024,3/2/2024,14,11840,15066,Deceased,Yes
+PID971,71,Female,Hypertension,Michigan Health Center,Orthopedics,Dr. Kumar,Self-Pay,Troy,MI,7/31/2024,8/11/2024,11,5955,7186,Transferred,No
+PID972,24,Female,Fracture,Troy General Hospital,Neurology,Dr. Johnson,Private,Ann Arbor,MI,10/29/2024,11/8/2024,10,9818,13192,Deceased,Yes
+PID973,57,Female,Heart Failure,Detroit Lakes Medical,Pediatrics,Dr. Johnson,Medicare,Canton,MI,4/13/2024,4/14/2024,1,6334,9753,Improved,Yes
+PID974,68,Female,Migraine,Detroit Lakes Medical,Cardiology,Dr. Smith,Self-Pay,Troy,MI,2/3/2024,2/4/2024,1,9832,12673,Improved,No
+PID975,88,Male,Hypertension,Troy General Hospital,Emergency,Dr. Kumar,Self-Pay,Southfield,MI,6/10/2024,6/13/2024,3,2294,2930,Improved,No
+PID976,83,Female,Diabetes,South Canton Care,Orthopedics,Dr. Patel,Medicaid,Detroit,MI,2/4/2024,2/11/2024,7,3218,4876,Improved,Yes
+PID977,84,Female,Arthritis,Michigan Health Center,Neurology,Dr. Johnson,Medicare,Detroit,MI,12/18/2024,12/31/2024,13,9870,13124,Recovered,Yes
+PID978,63,Male,Asthma,Detroit Lakes Medical,Cardiology,Dr. Johnson,Private,Ann Arbor,MI,8/3/2024,8/14/2024,11,8254,11495,Deceased,No
+PID979,17,Female,Migraine,Detroit Lakes Medical,Cardiology,Dr. Smith,Private,Canton,MI,9/19/2024,9/24/2024,5,9028,10152,Recovered,Yes
+PID980,16,Male,Arthritis,South Canton Care,Cardiology,Dr. Smith,Medicaid,Southfield,MI,1/10/2024,1/20/2024,10,10239,12015,Recovered,No
+PID981,76,Female,Stroke,South Canton Care,Pediatrics,Dr. Lee,Self-Pay,Ann Arbor,MI,12/24/2024,12/28/2024,4,6772,9271,Recovered,No
+PID982,7,Male,Diabetes,South Canton Care,Orthopedics,Dr. Johnson,Self-Pay,Southfield,MI,1/5/2024,1/14/2024,9,3064,6633,Improved,No
+PID983,54,Female,Pneumonia,Royal Womens Hospital,Cardiology,Dr. Lee,Private,Southfield,MI,2/6/2024,2/13/2024,7,10249,12696,Transferred,No
+PID984,68,Female,Asthma,Royal Womens Hospital,Orthopedics,Dr. Kumar,Medicare,Detroit,MI,11/12/2024,11/17/2024,5,7585,10328,Deceased,No
+PID985,48,Female,Diabetes,Michigan Health Center,Pediatrics,Dr. Patel,Private,Canton,MI,5/5/2024,5/20/2024,15,11837,14160,Transferred,Yes
+PID986,24,Female,Arthritis,Troy General Hospital,Pediatrics,Dr. Johnson,Self-Pay,Ann Arbor,MI,5/26/2024,6/5/2024,10,8666,11764,Improved,Yes
+PID987,39,Male,Diabetes,South Canton Care,Orthopedics,Dr. Patel,Private,Southfield,MI,5/6/2024,5/10/2024,4,10174,11905,Transferred,Yes
+PID988,7,Female,Heart Failure,South Canton Care,Emergency,Dr. Lee,Private,Detroit,MI,8/15/2024,8/26/2024,11,7162,8378,Transferred,No
+PID989,83,Female,Arthritis,South Canton Care,Emergency,Dr. Lee,Private,Ann Arbor,MI,4/5/2024,4/17/2024,12,5147,8543,Transferred,No
+PID990,80,Male,Pneumonia,Detroit Lakes Medical,Cardiology,Dr. Patel,Medicare,Southfield,MI,7/24/2024,8/5/2024,12,3760,5046,Transferred,No
+PID991,75,Female,Migraine,Detroit Lakes Medical,Cardiology,Dr. Patel,Self-Pay,Canton,MI,8/3/2024,8/15/2024,12,3343,6872,Transferred,No
+PID992,4,Male,Stroke,Detroit Lakes Medical,Emergency,Dr. Patel,Private,Troy,MI,10/1/2024,10/4/2024,3,10841,13577,Transferred,Yes
+PID993,89,Male,Heart Failure,South Canton Care,Pediatrics,Dr. Smith,Self-Pay,Canton,MI,11/8/2024,11/23/2024,15,4526,6277,Deceased,No
+PID994,45,Male,Migraine,Detroit Lakes Medical,Pediatrics,Dr. Lee,Medicaid,Ann Arbor,MI,2/28/2024,3/5/2024,6,2640,4701,Transferred,Yes
+PID995,12,Male,Infection,Royal Womens Hospital,Orthopedics,Dr. Patel,Medicaid,Southfield,MI,2/23/2024,3/8/2024,14,5339,7049,Deceased,No
+PID996,76,Male,Heart Failure,Michigan Health Center,Pediatrics,Dr. Johnson,Private,Canton,MI,11/14/2024,11/29/2024,15,11845,13852,Improved,No
+PID997,82,Male,Asthma,Troy General Hospital,Neurology,Dr. Johnson,Private,Ann Arbor,MI,12/25/2024,1/9/2025,15,6830,9205,Deceased,Yes
+PID998,36,Female,Fracture,Detroit Lakes Medical,Emergency,Dr. Kumar,Medicaid,Detroit,MI,10/28/2024,11/11/2024,14,2340,5171,Transferred,No
+PID999,15,Male,Arthritis,Detroit Lakes Medical,Cardiology,Dr. Lee,Medicaid,Detroit,MI,6/6/2024,6/17/2024,11,5366,8990,Deceased,No
+PID1000,79,Male,Arthritis,Michigan Health Center,Neurology,Dr. Patel,Medicare,Troy,MI,7/26/2024,8/10/2024,15,2703,4785,Deceased,No
